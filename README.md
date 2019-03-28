@@ -51,7 +51,7 @@ The Chrome extension is meant to be an ad-hoc access to the JobHub services. Whe
            popup.html
                |
              App.re
-             {token}
+        {token, userID}
                |
    +-----------+-----------+
    |                       |
@@ -60,7 +60,7 @@ Login.re               JobApp.re
                    ScrapingInputs.re
 ```
 
-`token` is the state variable which is initially obtained by `Login` during the authentication process and in subsequent  execustions of the extension its validity is confirmed by `App` directly. The variable is passed onto the `JobApp` component to be able to submit job applications.
+`token` is the state variable which is initially obtained by `Login` during the authentication process and in subsequent  execustions of the extension its validity is confirmed by `App` directly. `userID` is also obtained during the initial login process. In case of a deprecated `token`, both the `userID` and the `token` are cleared from the browser's memory. Both variables are passed onto the `JobApp` component to be able to fetch CVs and to submit job applications.
 
 The system leverages the following modules
 - `ScrapingFunctions.re`: functions related to extracting/processing HTML elements
