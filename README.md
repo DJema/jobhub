@@ -1,17 +1,20 @@
 # JobHub
+
 Landing Page for the JobHub project.
 
-## The Problem
+## Motivation and Reason
 
-## The Solution
+With the increasing complexity of the job searching process, it has become extremely difficult to keep track of one's job applications. Indeed, it is not rarely that one ends up receiving a call from a company to which they don't even remember applying to. This is largely due to how distributed the recruitment process has become: a job searcher has to find out about openings on different portals (Glassdoor, Linkedin, ...) and then subsequently has to fill out an application in different companies' career sites (Facebook's, Amazon's, ...). Naturally, in such circumstances, a person can become overwhelmed and can quite easily lose track of where one has applied, especially when aggressively applying to a plethora of openings (as it is often the case for students looking for internships or for people in desperate need of a job). Our product's aim is to facilitate the job hunt process by providing an seamless platform which allows users to efficiently manage their applications. Users can, in a click of our Chrome extension, easily add the application to which they've just applied (from Google's career site, Indeed.com, Linkedin, ...) into their own personal backlog of applications, without having to, for example, manually fill out entries inside of an Excel spreadsheet. This backlog, or history of applications, can quickly be accessed from our web portal, in which users can view relevant information related to a particular application in a very expressive way (company, position, title, deadlines, ...) and/or perform grooming tasks such as, for example, update its status (applied, rejected, offer, ...). Additionally, we provide functionalities that allow users to externalize memories instead of worrying about remembering them; an example of this would be our "interview questions" feature in which users can easily associate interview questions that they actually had to a particular application. We believe that through the organizational power that our neat interface provides, users are going to be able to gain meaningful insights into the progress of their search for employment and manage it with much more confidence. Jobhub's ultimate goal is to help its users remain organized and methodical throughout their job hunt in hopes of lightening the anxiety of what is already an extremely burdensome process.
+
+In prediction of the fact that the uniqueness of our tool would attract a large initial userbase, we also decided to add recruiters into the platform. The motivation for such an expansion of our scope is the following: given that we amass a large number of users primarily due to the functionalities described in the previous paragraph, we also want to provide recruiters with an opportunity to reach out to such a large pool of candidates, and, therefore, grow the number of visitors into our website even further. Hence, recruiters are also able to add job postings inside of our platform, and users are able to apply to these with a few clicks. This can also be seen as an attempt to tackle the problem of decentralization of the recruitment process by unifying both, applications and applications, under one shared system.
+
+## Project Management
 
 ## The Architecture
 
-### Authentication
+[TODO: Talk about overall architecture, i.e. microservices]
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f193348b2004466ba69f53bec6f9de9a)](https://www.codacy.com/app/alexH2456/authentication?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=scrum-gang/authentication&amp;utm_campaign=Badge_Grade)
-[![Build Status](https://travis-ci.com/scrum-gang/authentication.svg?branch=master)](https://travis-ci.com/scrum-gang/authentication)
-[![Coverage Status](https://coveralls.io/repos/github/scrum-gang/authentication/badge.svg?branch=master)](https://coveralls.io/github/scrum-gang/authentication?branch=master)
+### Authentication
 
 #### Description
 
@@ -59,7 +62,7 @@ Please note that any new builds on the **development** branch will **wipe** the 
 Details all the fields in the User model.
 
 | Field           | Type    | Required | Allowed Values                  | Specified By |
-|-----------------|---------|----------|---------------------------------|--------------|
+| --------------- | ------- | -------- | ------------------------------- | ------------ |
 | `email`         | String  | true     | n/a                             | user         |
 | `password`      | String  | true     | n/a                             | user         |
 | `type`          | String  | true     | Applicant, Recruiter, Moderator | user         |
@@ -88,12 +91,12 @@ Return list of all users.
 "Authorization": "Bearer [valid Moderator token]"
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `200 OK`
 **Body :** User objects
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** JWT is invalid.
 **Code :** `401`
@@ -111,12 +114,12 @@ Return user with corresponding ID.
 "Authorization": "Bearer [valid Moderator token]"
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `200 OK`
 **Body :** User object
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** JWT is invalid.
 **Code :** `401`
@@ -140,17 +143,17 @@ Updates a user with the corresponding ID.
 
 ```json
 {
-    "email": "[new email]",
-    "password": "[new password]",
-    "type": "[new type]"
+  "email": "[new email]",
+  "password": "[new password]",
+  "type": "[new type]"
 }
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `200 OK`
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** JWT is invalid.
 **Code :** `401`
@@ -170,11 +173,11 @@ Deletes a user with the corresponding ID.
 "Authorization": "Bearer [valid Moderator token]"
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `204 No Content`
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** Wrong token.
 
@@ -198,13 +201,13 @@ Creates new user with given email, password and type.
 
 ```json
 {
-    "email": "[valid email]",
-    "password": "[valid password]",
-    "type": "[Applicant || Recruiter]"
+  "email": "[valid email]",
+  "password": "[valid password]",
+  "type": "[Applicant || Recruiter]"
 }
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `201 Created`
 
@@ -226,12 +229,12 @@ Returns session token for existing User on succesful login.
 
 ```json
 {
-    "email": "[valid email]",
-    "password": "[valid password]"
+  "email": "[valid email]",
+  "password": "[valid password]"
 }
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `200 OK`
 
@@ -239,23 +242,23 @@ __**Success Reponse**__
 
 ```json
 {
-    "user": {
-        "_id": "[user ID]",
-        "email": "[email]",
-        "password": "[hashed password]",
-        "type": "[user type]",
-        "verified": true,
-        "created_at": "[account creation date]",
-        "updated_at": "[last account update]",
-        "__v": 0
-    },
-    "iat": "[Token issued at]",
-    "exp": "[Token expiry]",
-    "token": "[JWT token]"
+  "user": {
+    "_id": "[user ID]",
+    "email": "[email]",
+    "password": "[hashed password]",
+    "type": "[user type]",
+    "verified": true,
+    "created_at": "[account creation date]",
+    "updated_at": "[last account update]",
+    "__v": 0
+  },
+  "iat": "[Token issued at]",
+  "exp": "[Token expiry]",
+  "token": "[JWT token]"
 }
 ```
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** If `username` or `password` is wrong.
 
@@ -265,8 +268,8 @@ __**Error Response**__
 
 ```json
 {
-    "code": "Unauthorized",
-    "message": "Authentication failed."
+  "code": "Unauthorized",
+  "message": "Authentication failed."
 }
 ```
 
@@ -278,8 +281,8 @@ __**Error Response**__
 
 ```json
 {
-    "code": "Unauthorized",
-    "message": "Unverified user."
+  "code": "Unauthorized",
+  "message": "Unverified user."
 }
 ```
 
@@ -298,11 +301,11 @@ Logs out user given valid JWT token.
 "Authorization": "Bearer [token]"
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `200 OK`
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** If token is invalid.
 **Code :** `401 Unauthorized`
@@ -325,15 +328,15 @@ Resends the verfication email for an unverified user.
 
 ```json
 {
-    "email": "[valid email]",
+  "email": "[valid email]"
 }
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `200 OK`
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** If user is already verified.
 
@@ -343,8 +346,8 @@ __**Error Response**__
 
 ```json
 {
-    "code": "BadRequest",
-    "message": "User is already verified."
+  "code": "BadRequest",
+  "message": "User is already verified."
 }
 ```
 
@@ -356,8 +359,8 @@ __**Error Response**__
 
 ```json
 {
-    "code": "BadRequest",
-    "message": "No user with given email"
+  "code": "BadRequest",
+  "message": "No user with given email"
 }
 ```
 
@@ -376,7 +379,7 @@ Returns corresponding user given JWT token.
 "Authorization": "Bearer [token]"
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `200 OK`
 
@@ -384,18 +387,18 @@ __**Success Reponse**__
 
 ```json
 {
-    "_id": "[User ID]",
-    "email": "[User email]",
-    "password": "[User password]",
-    "type": "[User type]",
-    "verified": true,
-    "created_at": "[account creation date]",
-    "updated_at": "[last account update]",
-    "__v": 0
+  "_id": "[User ID]",
+  "email": "[User email]",
+  "password": "[User password]",
+  "type": "[User type]",
+  "verified": true,
+  "created_at": "[account creation date]",
+  "updated_at": "[last account update]",
+  "__v": 0
 }
 ```
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** If token is wrong.
 **Code :** `401 Unauthorized`
@@ -419,17 +422,17 @@ Updates a user with the corresponding ID.
 
 ```json
 {
-    "email": "[new email]",
-    "password": "[new password]",
-    "type": "[new type]"
+  "email": "[new email]",
+  "password": "[new password]",
+  "type": "[new type]"
 }
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `200 OK`
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** If user does not exist.
 
@@ -454,11 +457,11 @@ Deletes a user with the corresponding token.
 "Authorization": "Bearer [valid token]"
 ```
 
-__**Success Reponse**__
+\***\*Success Reponse\*\***
 
 **Code :** `204 No Content`
 
-__**Error Response**__
+\***\*Error Response\*\***
 
 **Condition :** Wrong token.
 
@@ -483,20 +486,23 @@ Note: Restrictions on endpoints can be bypassed by passing the `secret` header i
 :pushpin: Keep track of job applications ad-hoc
 
 [![Build Status](https://travis-ci.org/scrum-gang/jobhub-chrome.svg?branch=master)](https://travis-ci.org/scrum-gang/jobhub-chrome)
+
 <!--- [![Coverage Status](https://coveralls.io/repos/github/scrum-gang/jobhub-chrome/badge.svg)](https://coveralls.io/github/scrum-gang/jobhub-chrome)--->
 
-| Login Popup  | Job Posting Form |
-| ------------- | ------------- |
-| ![Login Popup](https://i.imgur.com/GXQQewr.png)  | ![Job Posting Form](https://i.imgur.com/rQyb5oD.png)  |
-
+| Login Popup                                     | Job Posting Form                                     |
+| ----------------------------------------------- | ---------------------------------------------------- |
+| ![Login Popup](https://i.imgur.com/GXQQewr.png) | ![Job Posting Form](https://i.imgur.com/rQyb5oD.png) |
 
 #### How to setup the project
+
 Please check our [contributors guide](.github/CONTRIBUTING.md).
 
 #### Why use the JobHub Extension
+
 The Chrome extension is meant to be an ad-hoc access to the JobHub services. When the users are on a job application website, they don't need to stop browsing the post in order to open the JobHub website on a separate tab. Instead, they can start tracking the given application via the popup submit directly on the job posting website.
 
 #### Folder Structure
+
 ```bash
 .
 ├── .github # contains Code of Conduct & templates for PR/Issues
@@ -515,6 +521,7 @@ The Chrome extension is meant to be an ad-hoc access to the JobHub services. Whe
 ```
 
 #### Architecture
+
 ```bash
            popup.html
                |
@@ -528,19 +535,20 @@ Login.re               JobApp.re
                    ScrapingInputs.re
 ```
 
-`token` is the state variable which is initially obtained by `Login` during the authentication process and in subsequent  execustions of the extension its validity is confirmed by `App` directly. `userID` is also obtained during the initial login process. In case of a deprecated `token`, both the `userID` and the `token` are cleared from the browser's memory. Both variables are passed onto the `JobApp` component to be able to fetch CVs and to submit job applications.
+`token` is the state variable which is initially obtained by `Login` during the authentication process and in subsequent execustions of the extension its validity is confirmed by `App` directly. `userID` is also obtained during the initial login process. In case of a deprecated `token`, both the `userID` and the `token` are cleared from the browser's memory. Both variables are passed onto the `JobApp` component to be able to fetch CVs and to submit job applications.
 
 The system leverages the following modules
+
 - `ScrapingFunctions.re`: functions related to extracting/processing HTML elements
 - `Services.re`: functions related to asynchronous actions external to the extension (load files/API calls)
 - `SyncStorage.re`: functions related to the Chrome storage management
 - `Uilities.re`: general purpose helper functions
 
-
 #### Limitations
-* Currently, the only supported `posted date` scraper pattern is `"<num> days ago"`
-* Currently, the extension does not have a `deadline date` scraper
-* Because of the [bucklescript-chrome](https://github.com/jchavarri/bucklescript-chrome.git#start-extensions) bindings used to build the extension,
-we are locked with outdated versions of core libraries such as `React` and `Bucklescript`
-* For the same reason as above, we can't use Chrome's [Content Scripts](https://developer.chrome.com/extensions/content_scripts).
-    Instead we inject a script into the active website to extract DOM information.
+
+- Currently, the only supported `posted date` scraper pattern is `"<num> days ago"`
+- Currently, the extension does not have a `deadline date` scraper
+- Because of the [bucklescript-chrome](https://github.com/jchavarri/bucklescript-chrome.git#start-extensions) bindings used to build the extension,
+  we are locked with outdated versions of core libraries such as `React` and `Bucklescript`
+- For the same reason as above, we can't use Chrome's [Content Scripts](https://developer.chrome.com/extensions/content_scripts).
+  Instead we inject a script into the active website to extract DOM information.
