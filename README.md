@@ -481,6 +481,16 @@ Note: Restrictions on endpoints can be bypassed by passing the `secret` header i
 
 ### Web Application
 
+The web application was built to run on any modern web browser (e.g. [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Chrome](https://www.google.com/chrome/), [Safari](https://www.apple.com/ca/safari/), etc.) using the open-source [ReactJS](https://reactjs.org/) view library as the backbone for our project. We chose React because it was a lightweight UI library that we could extend with different libraries (e.g. [react-router](https://github.com/ReactTraining/react-router) for routing, [react-helmet](https://github.com/nfl/react-helmet) for document head management, [Formik] for form vali[Material-UI](https://material-ui.com/) for pre-styled visual components, etc.)
+
+We bootstrapped the project using [create-react-app](https://facebook.github.io/create-react-app/), a zero-configuration starter project for ReactJS that equips developers with a toolchain allowing for newer JavaScript features (see the ECMAScript standard [here](https://en.wikipedia.org/wiki/ECMAScript)) that are not supported across all browser versions. Moreover, we decided to use [TypeScript](https://www.typescriptlang.org/) as our development language rather than plain JavaScript. TypeScript is a superset of JavaScript that adds static typing, leading to less error-prone and more scalable code. We have set up create-react-app to transpile the TypeScript down to JavaScript.
+
+Aside from React, we also use the [axios](https://github.com/axios/axios) HTTP client to interface with all of our microservices. We wrapped each microservice into its own instance of axios and created an API layer that could be queried across the entire application.
+
+To save persistent state, we used a mix of the browser's [localStorage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to have persistence across sessions, and ReactJS' [Context API](https://reactjs.org/docs/context.html) to pass state across different components from a single source of truth. This was mostly used to keep the authentication state useable throughout different scenarios (closing your tab, navigating through different pages, etc.)
+
+
+
 ### Chrome Extension
 
 :pushpin: Keep track of job applications ad-hoc
