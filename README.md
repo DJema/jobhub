@@ -12,7 +12,13 @@ In prediction of the fact that the uniqueness of our tool would attract a large 
 
 ## The Architecture
 
-[TODO: Talk about overall architecture, i.e. microservices]
+On a high level, we opted for a microservice architecture. There are two logistical reasons for this.
+
+First, it allowed us to utilize the diverse expertise of our team's members. Nobody was restricted to a particular technology, and everyone could use their preferred stack and programming language. This helped us speed up the development process quite significantly, since it spared some of our members the time required to learn an entire new ecosystem that they're not familar with.
+
+The second reason is distribution of tasks. By keeping ourselves localized to smaller teams corresponding to each microservice, we avoided the overhead of everyone having to deal with the potentially annoying technicalities that are proper to large teams working on the same repository and/or codebase.
+
+As for more technical concerns, we chose microservices because it's an architecture which significantly improves fault isolation (since failures are localized to specific modules and not to the whole application as a whole), because it gave the flexibility (for those who wanted it) to experiment with new technologies without having to worry about dependency concerns or roll back changes, and finally because reasoning about microservices it's extremely easy, meaning that the functionality of our service was very easy to understand.
 
 ### Authentication
 
