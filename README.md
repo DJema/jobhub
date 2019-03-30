@@ -20,6 +20,8 @@ The second reason is distribution of tasks. By keeping ourselves localized to sm
 
 As for more technical concerns, we chose microservices because it's an architecture which significantly improves fault isolation (since failures are localized to specific modules and not to the whole application as a whole), because it gave the flexibility (for those who wanted it) to experiment with new technologies without having to worry about dependency concerns or roll back changes, and finally because reasoning about microservices it's extremely easy, meaning that the functionality of our service was very easy to understand.
 
+The following sub-sections detail the architectures, design decisions and technology choices of the particular microservices themselves.
+
 ### Authentication
 
 #### Description
