@@ -127,7 +127,7 @@ Note: Restrictions on endpoints can be bypassed by passing the `secret` header i
 ### Job Applications
 
 ### Resume Revision
-[![Build Status](https://travis-ci.org/scrum-gang/resume-revision.svg?branch=master)](https://travis-ci.org/scrum-gang/resume-revision)
+[![Build Status](https://travis-ci.com/scrum-gang/resume-revision.svg?branch=master)](https://travis-ci.com/scrum-gang/resume-revision)
 
 #### Description
 
