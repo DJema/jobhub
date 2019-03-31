@@ -10,6 +10,35 @@ In prediction of the fact that the uniqueness of our tool would attract a large 
 
 ## Project Management
 
+### Project Planification
+
+With the requirements and vision of the product being set, the development stage could be started. 
+
+#### Product Backlog
+
+
+#### Done Checklist
+
+#### Sprints
+
+### Scrum Rituals
+
+#### Grooming
+
+#### Planning
+
+#### Sprint Demo
+
+#### Retrospective
+
+#### Daily Scrum
+
+Daily scrums were done informally within teams.
+
+#### Weekly Scrum
+
+The team had weekly scrum meetings to keep every member up to date with the progress of the product. Seeing the team was rather large and consisted of multiple students that.
+
 ## The Architecture
 
 On a high level, we opted for a microservice architecture. There are two logistical reasons for this.
