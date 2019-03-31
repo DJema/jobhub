@@ -31,13 +31,15 @@ With the requirements and vision of the product being set, the development stage
 
 #### Retrospective
 
-#### Daily Scrum
+#### Daily Scrums
 
 Daily scrums were done informally within teams.
 
-#### Weekly Scrum
+#### Weekly Scrums
 
-The team had weekly scrum meetings to keep every member up to date with the progress of the product. Seeing the team was rather large and consisted of multiple students that.
+The team had weekly scrum meetings to keep every member up to date with the progress of the product. We opted to hold these meetings remotely over a Discord voice channel seeing the large majority of the team resides far from campus. A few challenges arose using this method. The size of the team made choosing a time where each student was available very complicated. Additionally, there were also exceptional situations where team members simply could not assist the meeting due to personal reasons, and thus needed to still have access to the new information that arose during the weekly scrum. The solution we chose was to hold the weekly scrum on Mondays right before class. This is a time where every member of the team was available and would start the new week of the sprint early enough for subteams to incorporate the information discussed in the meeting. As the concept of a scrum meeting entails, the weekly meeting served to put all the subteams on the same level with the project as a whole and to assess how their work is developing. Three pieces of information were thus needed: what was done in the previous week, what was going to be done in the next week, and identifying major internal or external blockers. Also, the scrum master would also make any new announcements he received from the teacher assistant. To ensure that even the absent members were kept informed of the discussions had in the scrum meeting, minutes were taken and posted to a Google Drive folders and hyperlinked in the appropriate Discord text channel.
+
+With such a robust scrum meeting system put in place early in development, there was not much change in the format of the meeting. However, albeit usually short meetings were held, weeks where larger deliverables were due required longer meetings, and as such the scrum master needed to warn the rest of the team to be available longer than usual.
 
 ## The Architecture
 
