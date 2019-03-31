@@ -16,16 +16,18 @@ With the requirements and vision of the product being set, the development stage
 
 #### Product Backlog
 
-
 #### Done Checklist
 
 #### Sprints
 
+
+
 ### Scrum Rituals
 
-#### Grooming
+#### Sprint Planning
+Our team carried out sprint planning at the beginning of each sprint and during our weekly meetings where we refined our stories (backlog grooming). The scrum master facilitated the meeting with the entire team present where we discussed the stories and associated tasks involved with each feature. After the feature was discussed with the entire team, each member defined their work and effort necessary to complete their assigned task.
 
-#### Planning
+#### Backlog Grooming
 
 #### Sprint Demo
 
