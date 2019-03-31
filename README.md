@@ -1,4 +1,5 @@
 # JobHub
+# *PLEASE EDIT IN GOOGLE DOC TO AVOID OVERLAP*
 
 Landing Page for the JobHub project.
 
