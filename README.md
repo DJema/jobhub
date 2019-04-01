@@ -87,9 +87,11 @@ Given that we were a team of 14 members it was not always easy to coordinate bet
 
 We did not consider another method of collaboration as we felt this was most effective. AS mentioned before, the large team size was a blocker for collaboration so splitting into subteams was the optimal choice for us. From sprint 1 to sprint 2 we did not evolve this strategy. However, because some microservices were finished earlier we did rotate members into other sub-teams to balance the workload.
 
-# The Architecture
+# Architecture
 
 On a high level, we opted for a microservice architecture. There are two logistical reasons for this.
+
+![Architecture](https://i.imgur.com/ZVaYbrp.png)
 
 First, it allowed us to utilize the diverse expertise of our team's members. Nobody was restricted to a particular technology, and everyone could use their preferred stack and programming language. This helped us speed up the development process quite significantly, since it spared some of our members the time required to learn an entire new ecosystem that they're not familiar with.
 
