@@ -1,4 +1,4 @@
-Landing Page for the JobHub project.
+# Students
 
 - Abbas Yadollahi - 260680343
 - Alexander Bratyshkin - 260684228
@@ -13,11 +13,6 @@ Landing Page for the JobHub project.
 - Laurent Chenet - 260614863
 - Rami Djema - 260668934
 - Sebastian Andrade - 260513637
-- Suleman Malik - 260652774
-
-# Table of Contents
-
-[[TOC]]
 
 # Motivation and Reason
 
