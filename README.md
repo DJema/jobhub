@@ -51,22 +51,19 @@ Additionally, the task list allowed the team and, more specifically, the scrum m
 
 At the start of the first sprint, we brainstormed a list of all features we intended to implement. This formed the basis of our product backlog. Each item in the product backlog was represented by a user story however the product backlog also contained all features, functions and requirements. After all requirements and features were defined, we grouped the items into high, medium and low priority user stories. Once the user stories were defined, we broke up the user stories into tasks, addressed the acceptance criteria for each and estimated the effort of each. Because our main priority was to deliver working software frequently, we made sure to pay extra attention to higher priority stories when grooming the backlog.
 
-By the second sprint our backlog grooming process did not evolve much. Besides minor adjustments to some tasks, we followed the same process of looking over each user story and converting them to tasks and their estimated efforts. 
-
+By the second sprint our backlog grooming process did not evolve much. Besides minor adjustments to some tasks, we followed the same process of looking over each user story and converting them to tasks and their estimated efforts.
 
 ### Sprint Planning
 
 Our team carried out sprint planning at the beginning of each sprint and during our weekly meetings where we refined our stories (backlog grooming). The scrum master facilitated the meeting with the entire team present where we discussed the stories and associated tasks involved with each feature. After the feature was discussed with the entire team, each member defined their work and effort necessary to complete their assigned task.
 
-From sprint 1 to sprint 2 there was no change in terms of planning. However, we had to adjust the roles of our team members due to one of our peers dropping out of the class at the beginning of the first sprint and only informing us late in the first sprint. Because of his absence we had one less developer on his microservice and had to adjust accordingly. Because he did not inform us of him dropping the course, we operated on the assumption that he was completing his tasks. Additionally, because of his unresponsiveness we only learned late into the first sprint that he had in fact not completed any of his assigned tasks. This lead to an evolution in how we planned the effort of our tasks for sprint 2. For example, we had to be more conservative with story estimation because of having one less team member. Because our objective during each sprint was to maintain a constant pace we had to respond to this change in our team dynamic and deviate from our original plan. We had to adjust the ownership of the microservice he had been assigned to in order to make sure the tasks had been completed. Given that we had a large pool of talent within our team, the entire microservice that was left without a member was completed by one developer. 
-
+From sprint 1 to sprint 2 there was no change in terms of planning. However, we had to adjust the roles of our team members due to one of our peers dropping out of the class at the beginning of the first sprint and only informing us late in the first sprint. Because of his absence we had one less developer on his microservice and had to adjust accordingly. Because he did not inform us of him dropping the course, we operated on the assumption that he was completing his tasks. Additionally, because of his unresponsiveness we only learned late into the first sprint that he had in fact not completed any of his assigned tasks. This lead to an evolution in how we planned the effort of our tasks for sprint 2. For example, we had to be more conservative with story estimation because of having one less team member. Because our objective during each sprint was to maintain a constant pace we had to respond to this change in our team dynamic and deviate from our original plan. We had to adjust the ownership of the microservice he had been assigned to in order to make sure the tasks had been completed. Given that we had a large pool of talent within our team, the entire microservice that was left without a member was completed by one developer.
 
 ### Story Estimation
 
-Instead of estimating a story based on points as is done in industry, we estimated the effort involved in fully implementing a story based on the effort involved for each task of the story. This allowed us to have a slightly simpler model for evaluating the importance of a story. 
+Instead of estimating a story based on points as is done in industry, we estimated the effort involved in fully implementing a story based on the effort involved for each task of the story. This allowed us to have a slightly simpler model for evaluating the importance of a story.
 
 This process did not evolve from the first to second sprint. Firstly, we wanted to keep the same method of story estimation to maintain continuity between the two sprints. Secondly, we did not feel the need to change how we estimated a story’s effort because we did not run into any problems in the first sprint and we were able to mark all our tasks as completed.
-
 
 ### Daily Standup Meetings
 
@@ -78,27 +75,23 @@ However, to make sure the team was in-sync with each-other and the progress of t
 
 With such a robust scrum meeting system put in place early in development, there was not much change in the format of the meeting. However, albeit usually short meetings were held, weeks where larger deliverables were due required longer meetings, and as such the scrum master needed to warn the rest of the team to be available longer than usual.
 
-
 ### Sprint Demo
 
-At the end of each of the sprints, we had a release branch which signified it as demo-ready. After the second sprint ended we demoed the full application and its functionalities to the TA. During our weekly meetings, the sub-teams demoed their progress in order to ensure continuously delivering a release-ready project. This obviously was not as important during the first few weeks of the sprint but towards the end was crucial in our meetings. 
+At the end of each of the sprints, we had a release branch which signified it as demo-ready. After the second sprint ended we demoed the full application and its functionalities to the TA. During our weekly meetings, the sub-teams demoed their progress in order to ensure continuously delivering a release-ready project. This obviously was not as important during the first few weeks of the sprint but towards the end was crucial in our meetings.
 
-From the first to second sprint there was no evolution in how we preformed sprint demos. 
-
+From the first to second sprint there was no evolution in how we preformed sprint demos.
 
 ### Sprint Retrospective
 
-Sprint retrospective meetings were held once after every sprint and were incorporated in the weekly scrum meeting. For the first sprint retrospective, our team discussed what went well and what could be improved upon. Because we only had 2 sprints, we only had the opportunity to implement the suggestions from one sprint retrospective. However, in order to ensure the team was as efficient as possible we regularly discussed any blockers and progress during our weekly meetings at great length. 
+Sprint retrospective meetings were held once after every sprint and were incorporated in the weekly scrum meeting. For the first sprint retrospective, our team discussed what went well and what could be improved upon. Because we only had 2 sprints, we only had the opportunity to implement the suggestions from one sprint retrospective. However, in order to ensure the team was as efficient as possible we regularly discussed any blockers and progress during our weekly meetings at great length.
 
 We did not change our approach to the sprint retro from the first to the second sprint. While discussing what could be worked on, we made it a point to ensure that there was continuous attention to technical details as well as following good design practices.
 
-
 ### Collaboration Between Team Members
 
-Given that we were a team of 14 members it was not always easy to coordinate between everyone. Because of the scarce facilities McGill offered for meetings of this size and everyone’s incompatible schedules, we opted to form sub teams. In order to facilitate collaboration between members we split the application into microservices. Each microservice was assigned to a sub team which made face-to-face collaboration between those members easier. Through the weekly meetings, each respective sub team could then update the whole team on their progress. Additionally, because of the smaller teams working on subset of tasks, we utilized pair programming which lead to less errors and more robust code. Moreover, we felt that breaking up into self-organizing teams would lead to the greatest efficiency, architecture and design. Maintaining smaller teams facilitated collaboration which in turn greatly increased the simplicity of dependence between members. 
+Given that we were a team of 14 members it was not always easy to coordinate between everyone. Because of the scarce facilities McGill offered for meetings of this size and everyone’s incompatible schedules, we opted to form sub teams. In order to facilitate collaboration between members we split the application into microservices. Each microservice was assigned to a sub team which made face-to-face collaboration between those members easier. Through the weekly meetings, each respective sub team could then update the whole team on their progress. Additionally, because of the smaller teams working on subset of tasks, we utilized pair programming which lead to less errors and more robust code. Moreover, we felt that breaking up into self-organizing teams would lead to the greatest efficiency, architecture and design. Maintaining smaller teams facilitated collaboration which in turn greatly increased the simplicity of dependence between members.
 
-We did not consider another method of collaboration as we felt this was most effective. As mentioned before, the large team size was a blocker for collaboration so splitting into subteams was the optimal choice for us. From sprint 1 to sprint 2 we did not evolve this strategy. However, because some microservices were finished earlier we did rotate members into other sub-teams to balance the workload. 
-
+We did not consider another method of collaboration as we felt this was most effective. As mentioned before, the large team size was a blocker for collaboration so splitting into subteams was the optimal choice for us. From sprint 1 to sprint 2 we did not evolve this strategy. However, because some microservices were finished earlier we did rotate members into other sub-teams to balance the workload.
 
 # Architecture
 
@@ -617,7 +610,7 @@ The main reason of having a title and a revision is that sometimes users would l
 
 ## Description
 
-The Inhouse Posting module is a back-end microservice providing API endpoints to create job postings. It hosts the functionality and logic allowing recruiters to post job applications on the web app. When recruiters want to display job postings on our website through the user interface, the web app will connect to the inhouse-posting micro service and take care of storing, formatting and retrieving data. This is all achieved using a Nodejs architecture following a restful design. The specifics on the technology & architecture are highlighted in the _Technologies_ & _Design Decisions_ section.
+The Inhouse Posting module is a back-end microservice providing API endpoints to create job postings. It hosts the functionality and logic allowing recruiters to post job applications on the web app. When recruiters want to display job postings on our website through the user interface, the web app will connect to the inhouse-posting micro service and take care of storing, formatting and retrieving data. This is all achieved using a Node.js architecture following a restful design. The specifics on the technology & architecture are highlighted in the _Technologies_ & _Design Decisions_ section.
 
 ## Getting Started
 
@@ -668,7 +661,7 @@ In order to run the tests, the code needs to be pushed onto github to trigger th
 
 The folder structure of the inhouse-postings microservice is as follows:
 
-In the root, there are 4 folders; authentication, controllers, models, routes, test. The root also contains file needed for node js such as app.js, LICENSE, package.json.
+In the root, there are 4 folders; authentication, controllers, models, routes, test. The root also contains file needed for Node.js such as app.js, LICENSE, package.json.
 
 `authentication` folder contains the javascript file that has the functions that perform the logic of getting the JWT token from the header and sending it to the authentication microservice endpoint to check if the user is a recruiter or not.
 
@@ -718,12 +711,12 @@ Each job posting has the following attributes:
 - **GitHub** is used as our repository and version control system. You can find our repo [here](https://github.com/scrum-gang/inhouse-postings). [github](https://github.com/)
 - **Heroku** is used to host the inhouse postings microservice and to integrate the automated tests into our build system. [heroku](https://www.heroku.com/)
 
-List of npm (node.js) packages used:
+List of npm (Node.js) packages used:
 
-- **axios** is used to handle authentication. It provides an easy-to-use promise based HTTP client for node.js.
-- **Express** is used to build our APIs. It provides a fast and minimalist way to create endpoints for our node.js application.
+- **axios** is used to handle authentication. It provides an easy-to-use promise based HTTP client for Node.js.
+- **Express** is used to build our APIs. It provides a fast and minimalist way to create endpoints for our Node.js application.
 - **Mongoose** is used for our object and schema modelling since we are using MongoDB. It provides simple ways to describe our schema in node.js
-- **Chai** and **Mocha** are used to write our unit tests. It provides a BDD/TDD assertion library as well as a framework to run node.js unit tests that test our api endpoints.
+- **Chai** and **Mocha** are used to write our unit tests. It provides a BDD/TDD assertion library as well as a framework to run Node.js unit tests that test our api endpoints.
 
 ## Design Decisions
 
@@ -739,9 +732,9 @@ The model-route-controller architecture is used to separate and keep the three m
 
 The unit tests are written under the `/test` directory in the `test.js` file. The tests use the `expect()` function for assertion.
 
-The inhouse-postings service is hosted on Heroku. Using Travis CI, each time code is pushed into our repository on Github, a build will be spawned in Heroku. The build first runs our unit tests and then executes the npm run command, which uses node.js to run our app on Heroku’s hosted server.
+The inhouse-postings service is hosted on Heroku. Using Travis CI, each time code is pushed into our repository on Github, a build will be spawned in Heroku. The build first runs our unit tests and then executes the npm run command, which uses Node.js to run our app on Heroku’s hosted server.
 
-The microservice was coded using javascript with Nodejs for the sole reason that the whole team had experience with the language and the framework. This meant that the team could spend more time implementing high priority features and not worry about understanding the language and the node framework.
+The microservice was coded using javascript with Node.js for the sole reason that the whole team had experience with the language and the framework. This meant that the team could spend more time implementing high priority features and not worry about understanding the language and the node framework.
 
 The database chosen for this microservice is MongoDB. The rationale behind is that there is no need for a relational database as only job postings are stored. Hence, a document-oriented database such as MongoDB is a perfect fit. MongoDB also is easily deployed using the mLab hosting service.
 
@@ -751,7 +744,7 @@ Heroku was used as the deployment platform for several reasons. First of all, it
 
 The project was separated into two sprints.
 
-In the first sprint, Filip Bernevec defined the job posting database schema, as well as implementing it with MongoDB. He setup the continuous integration with Travis CI as well. On the other hand, Rami Djema spent his working hours on creating the backend architecture using Nodejs. During this sprint, he created REST API endpoints for creating a job posting, updating it, viewing and deleting.
+In the first sprint, Filip Bernevec defined the job posting database schema, as well as implementing it with MongoDB. He setup the continuous integration with Travis CI as well. On the other hand, Rami Djema spent his working hours on creating the backend architecture using Node.js. During this sprint, he created REST API endpoints for creating a job posting, updating it, viewing and deleting.
 
 In the second sprint, Filip Bernevec had to update the schema in order to have the similar entities as the job applications microservice. He also had to configure and deploy the app on Heroku, and implement authentication in the backend. As for Rami, he setup the testing environment using Mocha to test all the endpoints. He also handled crashing issues with the app, and added custom endpoints as requested by the frontend team.
 
@@ -779,7 +772,7 @@ The front-end web application communicates with all microservices and serves as 
 
 ### Setup
 
-Ensure that you have [NodeJS](https://nodejs.org/en/) installed. Clone the scrum-gang/jobhub-web repository, go into the root directory of the project, and run `npm install` to install all dependencies. To run the project, simply run `npm start`. To maintain code quality, we recommend using the VSCode text editor, and having the TSLint and Prettier extensions installed to have proper code formatting.
+Ensure that you have [Node.js](https://nodejs.org/en/) installed. Clone the scrum-gang/jobhub-web repository, go into the root directory of the project, and run `npm install` to install all dependencies. To run the project, simply run `npm start`. To maintain code quality, we recommend using the VSCode text editor, and having the TSLint and Prettier extensions installed to have proper code formatting.
 
 ### Running Tests
 
