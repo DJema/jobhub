@@ -694,18 +694,12 @@ Each job posting has the following attributes:
 
 ### Technologies
 
-- **npm** is used as our package manager since the code is written in JavaScript. It is the default package manager for the JavaScript runtime environment Node.js, which is at the core of our architecture.  
-  [npm](https://www.npmjs.com/)
-- **Node.js** is used to execute our javascript code. It has the advantage of having many tools and framework that significantly facilitate the development of a RESTful backend.  
-  [nodejs](https://nodejs.org/en/download/)
-- **MongoDB** is used as our database.  
-  [mongodb](https://www.mongodb.com/download-center)
-- **TravisCI** is used to integrate the builds into github.  
-  [travisci](https://travis-ci.com/download)
-- **GitHub** is used as our repository and version control system. https://github.com/scrum-gang/inhouse-postings
-  [github](https://github.com/)
-- **Heroku** is used to host the inhouse postings microservice and to integrate the automated tests into our build system.  
-  [heroku](https://www.heroku.com/)
+- **npm** is used as our package manager since the code is written in JavaScript. It is the default package manager for the JavaScript runtime environment Node.js, which is at the core of our architecture. [npm](https://www.npmjs.com/)
+- **Node.js** is used to execute our javascript code. It has the advantage of having many tools and framework that significantly facilitate the development of a RESTful backend. [nodejs](https://nodejs.org/en/download/)
+- **MongoDB** is used as our database. [mongodb](https://www.mongodb.com/download-center)
+- **TravisCI** is used to integrate the builds into github. [travisci](https://travis-ci.com/download)
+- **GitHub** is used as our repository and version control system. You can find our repo [here](https://github.com/scrum-gang/inhouse-postings). [github](https://github.com/)
+- **Heroku** is used to host the inhouse postings microservice and to integrate the automated tests into our build system. [heroku](https://www.heroku.com/)
 
 List of npm (node.js) packages used:
 
@@ -718,15 +712,15 @@ List of npm (node.js) packages used:
 
 The design of the inhouse-posting backend service follows a model-route-controller architecture. The reason for choosing this type of architecture is because we needed routes to be seperate from their purpose handled in the controller. This way we can accomodate the frontend with different routes and worry about implementing them in another file.
 
-The endpoints are described in the /routes directory in the inhouse-job-posting.route.js file.
+The endpoints are described in the `/routes` directory in the `inhouse-job-posting.route.js` file.
 
-Each endpoint is linked to a function in the controller under /controllers inhouse-job-postings.controller.js. The controller functions handle the business logic associated with each endpoint.
+Each endpoint is linked to a function in the controller under `/controllers/inhouse-job-postings.controller.js`. The controller functions handle the business logic associated with each endpoint.
 
-The model /models/inhouse-job-postings.model.js describes the database schema. The controller uses the model to make sure that the incoming requests and outgoing responses follow the schema.
+The model `/models/inhouse-job-postings.model.js` describes the database schema. The controller uses the model to make sure that the incoming requests and outgoing responses follow the schema.
 
-The model-route-controller architecture is used to separate and keep the three modules independent of one another. The advantage of this design is that changing one of the three modules does not impact the others. For example, changing the name of an endpoint from “/getall” to “/retreiveall” in the routes file is as simple as just changing the route name. This does not impact the rest of the code, since they are independent.
+The model-route-controller architecture is used to separate and keep the three modules independent of one another. The advantage of this design is that changing one of the three modules does not impact the others. For example, changing the name of an endpoint from `/getall` to `/retreiveall` in the routes file is as simple as just changing the route name. This does not impact the rest of the code, since they are independent.
 
-The unit tests are written under the /test directory in the test.js file. The tests use the expect() function for assertion.
+The unit tests are written under the `/test` directory in the `test.js` file. The tests use the `expect()` function for assertion.
 
 The inhouse-postings service is hosted on Heroku. Using Travis CI, each time code is pushed into our repository on Github, a build will be spawned in Heroku. The build first runs our unit tests and then executes the npm run command, which uses node.js to run our app on Heroku’s hosted server.
 
