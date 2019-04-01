@@ -1,4 +1,93 @@
-Landing Page for the JobHub project.
+<!-- vscode-markdown-toc -->
+* 1. [Project Preparation](#ProjectPreparation)
+	* 1.1. [Done Checklist](#DoneChecklist)
+	* 1.2. [Product Backlog](#ProductBacklog)
+	* 1.3. [Sprint Backlog and Task List](#SprintBacklogandTaskList)
+* 2. [Scrum Rituals](#ScrumRituals)
+	* 2.1. [Backlog Grooming](#BacklogGrooming)
+	* 2.2. [Sprint Planning](#SprintPlanning)
+	* 2.3. [Story Estimation](#StoryEstimation)
+	* 2.4. [Daily Standup Meetings](#DailyStandupMeetings)
+	* 2.5. [Sprint Demo](#SprintDemo)
+	* 2.6. [Sprint Retrospective](#SprintRetrospective)
+	* 2.7. [Collaboration Between Team Members](#CollaborationBetweenTeamMembers)
+* 3. [Authentication](#Authentication)
+	* 3.1. [Description](#Description)
+	* 3.2. [Getting Started](#GettingStarted)
+		* 3.2.1. [Setup](#Setup)
+		* 3.2.2. [Running tests](#Runningtests)
+		* 3.2.3. [Deployment](#Deployment)
+		* 3.2.4. [Folder structure](#Folderstructure)
+		* 3.2.5. [Database Info](#DatabaseInfo)
+	* 3.3. [Technologies](#Technologies)
+	* 3.4. [Design Decisions](#DesignDecisions)
+	* 3.5. [Task Distribution](#TaskDistribution)
+	* 3.6. [Limitations](#Limitations)
+* 4. [Job Applications](#JobApplications)
+	* 4.1. [Description](#Description-1)
+	* 4.2. [Getting Started](#GettingStarted-1)
+		* 4.2.1. [Setup](#Setup-1)
+		* 4.2.2. [Running Tests](#RunningTests)
+		* 4.2.3. [Folder Structure](#FolderStructure)
+		* 4.2.4. [Database Info](#DatabaseInfo-1)
+	* 4.3. [Technologies](#Technologies-1)
+	* 4.4. [Design Decisions](#DesignDecisions-1)
+	* 4.5. [Task distribution](#Taskdistribution)
+	* 4.6. [Limitations](#Limitations-1)
+	* 4.7. [Miscellaneous](#Miscellaneous)
+		* 4.7.1. [Future Work](#FutureWork)
+* 5. [Resume Revision](#ResumeRevision)
+	* 5.1. [Description](#Description-1)
+	* 5.2. [Getting Started](#GettingStarted-1)
+		* 5.2.1. [Setup](#Setup-1)
+		* 5.2.2. [Running Tests](#RunningTests-1)
+		* 5.2.3. [Folder Structure](#FolderStructure-1)
+		* 5.2.4. [Database Information](#DatabaseInformation)
+	* 5.3. [Technologies](#Technologies-1)
+	* 5.4. [Design Decisions](#DesignDecisions-1)
+	* 5.5. [Task Distribution](#TaskDistribution-1)
+	* 5.6. [Limitations](#Limitations-1)
+* 6. [Inhouse Postings](#InhousePostings)
+	* 6.1. [Description](#Description-1)
+	* 6.2. [Getting Started](#GettingStarted-1)
+		* 6.2.1. [Setup](#Setup-1)
+		* 6.2.2. [Running Tests](#RunningTests-1)
+		* 6.2.3. [Folder Structure](#FolderStructure-1)
+		* 6.2.4. [Database Information](#DatabaseInformation-1)
+	* 6.3. [Technologies](#Technologies-1)
+	* 6.4. [Design Decisions](#DesignDecisions-1)
+	* 6.5. [Task Distribution](#TaskDistribution-1)
+	* 6.6. [Limitations](#Limitations-1)
+	* 6.7. [Miscellaneous](#Miscellaneous-1)
+		* 6.7.1. [Endpoints](#Endpoints)
+* 7. [Web Application](#WebApplication)
+	* 7.1. [Description](#Description-1)
+	* 7.2. [Getting Started](#GettingStarted-1)
+		* 7.2.1. [Setup](#Setup-1)
+		* 7.2.2. [Running tests](#Runningtests-1)
+		* 7.2.3. [Folder structure](#Folderstructure-1)
+	* 7.3. [Technologies](#Technologies-1)
+	* 7.4. [Design decisions](#Designdecisions)
+	* 7.5. [Task distribution](#Taskdistribution-1)
+	* 7.6. [Limitations](#Limitations-1)
+* 8. [Chrome Extension](#ChromeExtension)
+	* 8.1. [Description](#Description-1)
+	* 8.2. [Getting started](#Gettingstarted)
+		* 8.2.1. [Setup](#Setup-1)
+		* 8.2.2. [Testing](#Testing)
+		* 8.2.3. [Folder structure](#Folderstructure-1)
+		* 8.2.4. [Contributor guidelines](#Contributorguidelines)
+	* 8.3. [Technologies](#Technologies-1)
+	* 8.4. [Design decisions](#Designdecisions-1)
+	* 8.5. [Task distribution](#Taskdistribution-1)
+	* 8.6. [Limitations](#Limitations-1)
+	* 8.7. [Miscellaneous](#Miscellaneous-1)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->Landing Page for the JobHub project.
 
 Abbas Yadollahi - 260680343
 Alexander Bratyshkin - 260684228
@@ -17,7 +106,7 @@ Suleman Malik - 260652774
 
 # Table of Contents
 
-<!-- TOC -->autoauto- [Table of Contents](#table-of-contents)auto- [Motivation and Reason](#motivation-and-reason)auto- [Project Management](#project-management)auto    - [Project Preparation](#project-preparation)auto        - [Done Checklist](#done-checklist)auto        - [Product Backlog](#product-backlog)auto        - [Sprint Backlog and Task List](#sprint-backlog-and-task-list)auto    - [Scrum Rituals](#scrum-rituals)auto        - [Backlog Grooming](#backlog-grooming)auto        - [Sprint Planning](#sprint-planning)auto        - [Story Estimation](#story-estimation)auto        - [Daily Standup Meetings](#daily-standup-meetings)auto        - [Sprint Demo](#sprint-demo)auto        - [Sprint Retrospective](#sprint-retrospective)auto        - [Collaboration Between Team Members](#collaboration-between-team-members)auto- [The Architecture](#the-architecture)auto    - [Authentication](#authentication)auto        - [Description](#description)auto        - [Getting Started](#getting-started)auto            - [Setup](#setup)auto            - [Running tests](#running-tests)auto            - [Deployment](#deployment)auto            - [Folder structure](#folder-structure)auto            - [Database Info](#database-info)auto        - [Technologies](#technologies)auto        - [Design Decisions](#design-decisions)auto        - [Task Distribution](#task-distribution)auto        - [Limitations](#limitations)auto    - [Job Applications](#job-applications)auto        - [Description](#description-1)auto        - [Getting Started](#getting-started-1)auto            - [Setup](#setup-1)auto            - [Running Tests](#running-tests)auto            - [Folder Structure](#folder-structure)auto            - [Database Info](#database-info-1)auto                - [Applications](#applications)auto                - [Inhouse](#inhouse)auto                - [External](#external)auto                - [InterviewQuestion](#interviewquestion)auto        - [Technologies](#technologies-1)auto        - [Design Decisions](#design-decisions-1)auto        - [Task distribution](#task-distribution)auto        - [Limitations](#limitations-1)auto        - [Miscellaneous](#miscellaneous)auto            - [Future Work](#future-work)auto    - [Resume Revision](#resume-revision)auto        - [Description](#description-2)auto        - [Getting Started](#getting-started-2)auto            - [Setup](#setup-2)auto            - [Running Tests](#running-tests-1)auto            - [Folder Structure](#folder-structure-1)auto            - [Database Information](#database-information)auto        - [Technologies](#technologies-2)auto        - [Design Decisions](#design-decisions-2)auto        - [Task Distribution](#task-distribution-1)auto        - [Limitations](#limitations-2)auto    - [Inhouse Postings](#inhouse-postings)auto        - [Description](#description-3)auto        - [Getting Started](#getting-started-3)auto            - [Setup](#setup-3)auto            - [Running Tests](#running-tests-2)auto            - [Folder Structure](#folder-structure-2)auto            - [Database Information](#database-information-1)auto        - [Technologies](#technologies-3)auto        - [Design Decisions](#design-decisions-3)auto        - [Task Distribution](#task-distribution-2)auto        - [Limitations](#limitations-3)auto        - [Miscellaneous](#miscellaneous-1)auto            - [Endpoints](#endpoints)auto    - [Web Application](#web-application)auto        - [Description](#description-4)auto        - [Getting Started](#getting-started-4)auto            - [Setup](#setup-4)auto            - [Running tests](#running-tests-1)auto            - [Folder structure](#folder-structure-1)auto        - [Technologies](#technologies-4)auto        - [Design decisions](#design-decisions)auto        - [Task distribution](#task-distribution-1)auto        - [Limitations](#limitations-4)auto    - [Chrome Extension](#chrome-extension)auto        - [Description](#description-5)auto        - [Getting started](#getting-started)auto            - [Setup](#setup-5)auto            - [Testing](#testing)auto            - [Folder structure](#folder-structure-2)auto            - [Contributor guidelines](#contributor-guidelines)auto                - [Code of conduct](#code-of-conduct)auto                - [Issues and bug forms](#issues-and-bug-forms)auto                - [Pull request forms](#pull-request-forms)auto        - [Technologies](#technologies-5)auto        - [Design decisions](#design-decisions-1)auto        - [Task distribution](#task-distribution-2)auto        - [Limitations](#limitations-5)auto        - [Miscellaneous](#miscellaneous-2)autoauto<!-- /TOC -->
+
 
 # Motivation and Reason
 
@@ -27,43 +116,43 @@ In prediction of the fact that the uniqueness of our tool would attract a large 
 
 # Project Management
 
-## Project Preparation
+##  1. <a name='ProjectPreparation'></a>Project Preparation
 
 The project preparation document, created before development began, allowed the team to turn their idea and vision for the project into a concrete delivery plan. This included creating a product backlog to implement features, a testing plan and a done checklist in order to assure that the product delivered was up to coding and business standards, and organizing the sprints in order for the team to benefit from Agile development.
 
-### Done Checklist
+###  1.1. <a name='DoneChecklist'></a>Done Checklist
 
 The done checklist was used to ensure that the product delivered was up to the standards set by the team and those commonly seen within the coding community. It is the contract that binds the team members to producing high quality code that can be maintained and sustained through the development process. As such, the team incorporated all the items that were established in the done checklist. Examples of this included peer-reviewed pull requests, continuous integration and delivery for all the repositories, and the adoption of GitFlow, a branch management standard that separates code used for development purposes and code delivered to production.
 
-### Product Backlog
+###  1.2. <a name='ProductBacklog'></a>Product Backlog
 
 The product backlog provided the team with a complete picture of how to put their vision for the product into deliverable features. In creating the product backlog, the team agreed that developing the high priority stories would be sufficient to obtain the “minimum viable product” that could be released, whereas the medium priority stories’ implementation would assure that we delivered a complete product. The low priority stories were considered as “nice-to-have” and “quality of life” features. This gave the team a good idea as to what should be included in each of the two sprints, but also give enough flexibility to add more low priority stories in the eventuality that development went better than expected.
 
-### Sprint Backlog and Task List
+###  1.3. <a name='SprintBacklogandTaskList'></a>Sprint Backlog and Task List
 
 The sprint backlog allowed the team to plan their work for a short period of time, thus allowing them to focus only on the tasks they chose and believed were the most important to include at the time. It focuses on developing features over writing documentation, and as such only features that have value to the hypothetical customer of the product were included. Additionally, the task list allowed the team and, more specifically, the scrum master, to track the progress of how each story evolved throughout its development. An advantage of have such a tasklist with specific development stages for each story (“backlog”, “in progress”, “done”, “blocked”, “not implemented”) is that the progress can be tracked and priorities may be shifted to stories that need more attention. It also allows other developers to see the pain points of the sprint and, as caring members of the project, lend a hand to fixing said issues. As such, the continuously evolving nature of the sprint backlog allowed the team to deliver the product that the hypothetical user wants rather than following a set plan, because requirements tend to change very fast in today’s world.
 
-## Scrum Rituals
+##  2. <a name='ScrumRituals'></a>Scrum Rituals
 
-### Backlog Grooming
+###  2.1. <a name='BacklogGrooming'></a>Backlog Grooming
 
 At the start of the first sprint, we brainstormed a list of all features we intended to implement. This formed the basis of our product backlog. Each item in the product backlog was represented by a user story however the product backlog also contained all features, functions and requirements. After all requirements and features were defined, we grouped the items into high, medium and low priority user stories. Once the user stories were defined, we broke up the user stories into tasks, addressed the acceptance criteria for each and estimated the effort of each.
 
 By the second sprint our backlog grooming process did not evolve much. Besides minor adjustments to some tasks, we followed the same process of looking over each user story and converting them to tasks and their estimated efforts.
 
-### Sprint Planning
+###  2.2. <a name='SprintPlanning'></a>Sprint Planning
 
 Our team carried out sprint planning at the beginning of each sprint and during our weekly meetings where we refined our stories (backlog grooming). The scrum master facilitated the meeting with the entire team present where we discussed the stories and associated tasks involved with each feature. After the feature was discussed with the entire team, each member defined their work and effort necessary to complete their assigned task.
 
 From sprint 1 to sprint 2 there was no change in terms of planning. However, we had to adjust the roles of our team members due to one of our peers dropping out of the class at the beginning of the first sprint and only informing us late in the first sprint. Because of his absence we had one less developer on his microservice and had to adjust accordingly. Because he did not inform us of him dropping the course, we operated on the assumption that he was completing his tasks. Because of his unresponsiveness we only learnt late into the first sprint that he had in fact not completed any of his assigned tasks. This lead to an evolution in how we planned the effort of our tasks for sprint 2. For example, we had to be more conservative with story estimation because of having one less team member. We had to adjust the ownership of the microservice he had been assigned to in order to make sure the tasks had been completed. Given that we had a large pool of talent within our team, the entire microservice that was left without a member was completed by one developer.
 
-### Story Estimation
+###  2.3. <a name='StoryEstimation'></a>Story Estimation
 
 Instead of estimating a story based on points as is done in industry, we estimated the effort involved in fully implementing a story based on the effort involved for each task of the story. This allowed us to have a slightly simpler model for evaluating the importance of a story.
 
 This process did not evolve from the first to second sprint. Firstly, we wanted to keep the same method of story estimation to maintain continuity between the two sprints. Secondly, we did not feel the need to change how we estimated a story’s effort because we did not run into any problems in the first sprint.
 
-### Daily Standup Meetings
+###  2.4. <a name='DailyStandupMeetings'></a>Daily Standup Meetings
 
 Daily scrums were done informally within subteams, as a daily standup comprised of all fourteen members of the team would be infeasible and counter-productive considering the nature of the project. It would have required a lot of effort to organize the meeting around every member’s schedule. Seeing the project required each team member to work on the product for a minimum of three hours a week, a daily scrum meeting does not provide enough content to justify its existence.
 
@@ -73,15 +162,15 @@ However, to make sure the team was in-sync with each-other and the progress of t
 
 With such a robust scrum meeting system put in place early in development, there was not much change in the format of the meeting. However, albeit usually short meetings were held, weeks where larger deliverables were due required longer meetings, and as such the scrum master needed to warn the rest of the team to be available longer than usual.
 
-### Sprint Demo
+###  2.5. <a name='SprintDemo'></a>Sprint Demo
 
 At the end of each of the sprints, we had a release branch which signified it as demo-ready. After the second sprint ended we demoed the full application and its functionalities to the TA.
 
-### Sprint Retrospective
+###  2.6. <a name='SprintRetrospective'></a>Sprint Retrospective
 
 Sprint retrospective meetings were held once after every sprint and were incorporated in the weekly scrum meeting. For the first sprint retrospective, our team discussed what went well and what could be improved upon. Because we only had 2 sprints, we only had the opportunity to implement the suggestions from one sprint retrospective. However, in order to ensure the team was as efficient as possible we regularly discussed any blockers and progress during our weekly meetings at great length.
 
-### Collaboration Between Team Members
+###  2.7. <a name='CollaborationBetweenTeamMembers'></a>Collaboration Between Team Members
 
 Given that we were a team of 14 members it was not always easy to coordinate between everyone. Because of the scarce facilities McGill offered for meetings of this size and everyone’s incompatible schedules, we opted to form sub teams. In order to facilitate collaboration between members we split the application into microservices. Each microservice was assigned to a sub team which made face-to-face collaboration between those members easier. Through the weekly meetings, each respective sub team could then update the whole team on their progress. Additionally, because of the smaller teams working on subset of tasks, we utilized pair programming which lead to less errors and more robust code.
 
@@ -105,9 +194,9 @@ The two most popular choices for an application which interfaces with multiple m
 
 The following subsections detail the architectures, design decisions and technology choices of the particular microservices themselves.
 
-## Authentication
+##  3. <a name='Authentication'></a>Authentication
 
-### Description
+###  3.1. <a name='Description'></a>Description
 
 👮 Provides authentication/user management for all jobhub microservices. Uses JWT for authentication.
 
@@ -119,9 +208,9 @@ Each user has the following required attributes:
 - `type`: The type of user. Can be Applicant or Recruiter.
 - `verified`: Whether the user has verified their email after creating their account. Required to be able to login.
 
-### Getting Started
+###  3.2. <a name='GettingStarted'></a>Getting Started
 
-#### Setup
+####  3.2.1. <a name='Setup'></a>Setup
 
 ```bash
 git clone https://github.com/scrum-gang/authentication.git
@@ -137,13 +226,13 @@ Typical usage
 3. Login using `/login`, keep JWT token.
 4. Can get logged in user using `/users/self` and passing token in header.
 
-#### Running tests
+####  3.2.2. <a name='Runningtests'></a>Running tests
 
 ```bash
 npm test
 ```
 
-#### Deployment
+####  3.2.3. <a name='Deployment'></a>Deployment
 
 Builds are automated using Travis and deployed on Heroku.
 
@@ -156,7 +245,7 @@ The staging deployment should be used for all development/testing purposes, in o
 
 Please note that any new builds on the **development** or **master** branches will **wipe** the staging database.
 
-#### Folder structure
+####  3.2.4. <a name='Folderstructure'></a>Folder structure
 
 ```bash
 .
@@ -180,7 +269,7 @@ Please note that any new builds on the **development** or **master** branches wi
         └── endpoints.js # Tests for all endpoints
 ```
 
-#### Database Info
+####  3.2.5. <a name='DatabaseInfo'></a>Database Info
 
 Details all the fields in the User model.
 
@@ -203,7 +292,7 @@ All `/users` endpoints except for `/users/self` are restricted to moderators onl
 
 Note: Restrictions on endpoints can be bypassed by passing the `secret` header in the request. Ask someone on authentication for the secret or see pinned message on authentication channel on Discord.
 
-### Technologies
+###  3.3. <a name='Technologies'></a>Technologies
 
 - [Node](https://nodejs.org/): Main language used.
 - [Restify](http://restify.com/): For creating REST endpoints.
@@ -220,7 +309,7 @@ Note: Restrictions on endpoints can be bypassed by passing the `secret` header i
 - [eslint](https://eslint.org/): Linter
 - [Visual Studio Code](https://code.visualstudio.com/): Main IDE used.
 
-### Design Decisions
+###  3.4. <a name='DesignDecisions'></a>Design Decisions
 
 For creating our REST endpoints, we decided to use [Restify](http://restify.com/) over a more well known framework like [Express](https://expressjs.com/) due to the fact that it is more lightweight and minimalistic, which made it easier to quickly get our service up and running, since most of the other microservices depended on ours.
 
@@ -244,7 +333,7 @@ We have two configurations for the test suite. One runs the tests on a mocked da
 
 We also run our linter before the test cases using [eslint](https://eslint.org/), which ensures we keep a consistent code style throughout the codebase.
 
-### Task Distribution
+###  3.5. <a name='TaskDistribution'></a>Task Distribution
 
 Sebastian Andrade: Database schema, JWT implementation, endpoint implementation.
 
@@ -256,21 +345,21 @@ Alexander Harris: Unit/endpoint testing, endpoint implementation, extended User 
 
 Laurent Chenet: Endpoint implementation, input validation for endpoints.
 
-### Limitations
+###  3.6. <a name='Limitations'></a>Limitations
 
 As it stands, our authentication supports an IP blocking feature for when a certain IP sends more than 20 requests in 1 minute or fails 10 login attempts in 5 minutes. At this time, the amount of time that the IP address times out is hard coded to be 5 minutes, which works in terms of functionality, though an improvement that could be made would be to implement it so that the length of the timeout varies depending on the number of times the IP has been timed out. This is something that would be worth doing to improve the security of the system in the future.
 
 Additionally, we believe that it would be useful to include a feature where a moderator can see which users are currently logged in and which are not. This was originally in our low priority stories, though due to the time constraint of the course, we decided that it wasn’t worth implementing in the scope of this project. However, since all other requirements related to the main functionality of our authentication are currently completed, this would be the next item to implement.
 
-## Job Applications
+##  4. <a name='JobApplications'></a>Job Applications
 
-### Description
+###  4.1. <a name='Description-1'></a>Description
 
 This microservice allows authenticated users to track applications to jobs. The microservice handles applications to inhouse postings and external postings differently to ensure we don’t create redundancies in the stored data, but most other functionality is generic to any type of application.
 
-### Getting Started
+###  4.2. <a name='GettingStarted-1'></a>Getting Started
 
-#### Setup
+####  4.2.1. <a name='Setup-1'></a>Setup
 
 Note: For making contributions, an ideal development environment is [Visual Studio Code](https://code.visualstudio.com/) as it is lightweight and provides syntax highlighting. [PyCharm](https://www.jetbrains.com/pycharm/) is also a good option, as it is a industry-standard [Python](https://www.python.org/downloads/release/python-360/) development environment.
 
@@ -302,7 +391,7 @@ Finally, you can create the tables in your database using the `setup.py` script.
 
 You now have an instance of the database with the correct tables and columns.
 
-#### Running Tests
+####  4.2.2. <a name='RunningTests'></a>Running Tests
 
 [![Build Status](https://travis-ci.org/scrum-gang/jobapplications.svg?branch=master)](https://travis-ci.org/scrum-gang/jobapplications)
 
@@ -323,7 +412,7 @@ pytest --cov --cov-config=.coveragerc --cov-report term tests/
 We perform thorough unit testing on the controllers of the application. Each function within the controllers has a test for a successful flow, as well as at least one failure flow. It is difficult to test for every possible error, however we still achieve a code coverage of 73%. Note that code coverage here is defined by line coverage. We also have a suite of tests where we execute controller functions directly on the database, to ensure that the database itself is functional and allows us to have the desired controller functions. These tests have Test Driven Development in mind as they were designed before implementing the controllers themselves.
 In order to run the tests, it is necessary to first setup the microservice as explained in the [setup section](https://github.com/scrum-gang/jobapplications#setup) in the repository readme. Once everything is setup, to run the tests, simply run `pytest tests/` from the root of the project.
 
-#### Folder Structure
+####  4.2.3. <a name='FolderStructure'></a>Folder Structure
 
 ```
 .
@@ -352,7 +441,7 @@ In order to run the tests, it is necessary to first setup the microservice as ex
 
 ```
 
-#### Database Info
+####  4.2.4. <a name='DatabaseInfo-1'></a>Database Info
 
 Below is a description of the tables for the Job Applications database.
 
@@ -398,7 +487,7 @@ Users may want to also track what interview questions they received for a given 
 - `title`: String, title of the interview question
 - `question`: String, specific interview question
 
-### Technologies
+###  4.3. <a name='Technologies-1'></a>Technologies
 
 - [Python](https://www.python.org/downloads/release/python-360/): a programming language that lets you work quickly and integrate systems more effectively.
 - [Flask](http://flask.pocoo.org/): a micro web framework written in Python.
@@ -408,7 +497,7 @@ Users may want to also track what interview questions they received for a given 
 - [Heroku](https://www.heroku.com/): a cloud platform as a service (PaaS) supporting several programming languages.
 - [TravisCI](https://travis-ci.org/): a hosted, distributed continuous integration service used to build and test software projects hosted at [GitHub](https://github.com/).
 
-### Design Decisions
+###  4.4. <a name='DesignDecisions-1'></a>Design Decisions
 
 We chose to build the microservice using Python given its simplicity: when we follow the PEP8 styling practices, well-written Python can be read like prose. This microservice was built using the Flask framework once again for simplicity. We’ve opted for a SQL database to enable scalability, as we expect to have too many applications for an in-memory database. We opted to use [PostgreSQL](https://www.postgresql.org/) because the team was already familiar with it. We interact with this database through an Object Relational Mapper (ORM) called [SQLAlchemy](http://flask.pocoo.org/docs/1.0/patterns/sqlalchemy/) provided by Flask, once again for simplicity: it is much easier for other teammates to read code with ORM calls than it is to parse SQL queries within Python code. The choice to include [Alembic](https://pypi.org/project/alembic/) was with a long-term vision: as we want to make modifications to our database, having migration scripts will be quicker and more efficient.
 
@@ -420,11 +509,11 @@ The architecture of our repository also had modularity in mind to enable quick m
 
 The application is deployed through Heroku due to its seamless integration with Github, and ease-of-use. The deployed version can be found here: [Heroku app link](https://scrum-gang-job-applications.herokuapp.com/). More information regarding the many end-points themselves can be found in the [microservices’ official documentation](https://github.com/scrum-gang/jobapplications/blob/master/docs/endpoints.md).
 
-### Task distribution
+###  4.5. <a name='Taskdistribution'></a>Task distribution
 
 Originally, there were 2 developers assigned to this team, but one of them dropped out of the class during the first sprint. Consequently, Andrei Ungur, the only remaining developer in the team, was in charge of this repository. By the end of the first sprint, there was not much else to do for this microservice, so it was not necessary to add more people to this team. Andrei was in constant contact with members from the team working on the Chrome extension as well as the web application for help with this microservices’ development as well as ensuring consistency between the implementation of our components.
 
-### Limitations
+###  4.6. <a name='Limitations-1'></a>Limitations
 
 The biggest limitations of this microservice stem from our interactions with its database. Namely, the problems are:
 
@@ -439,9 +528,9 @@ Regarding scalability, we also have no setup for stress testing our application,
 
 Although we have included [Alembic](https://pypi.org/project/alembic/), we did not adjust our data migration scripts very diligently as we developed the microservice, which means that currently it is not fully prepared to handle data migrations.
 
-### Miscellaneous
+###  4.7. <a name='Miscellaneous'></a>Miscellaneous
 
-#### Future Work
+####  4.7.1. <a name='FutureWork'></a>Future Work
 
 Addressing the limitations related to scaling, namely including indexes to frequently queried attributes and testing for potential concurrency issues to ensure our application is safe from many concurrent calls. Adding mutual exclusion around our database operations might be required if concurrency testing reveals potential issues.
 
@@ -449,15 +538,15 @@ For speeding up our microservice, we can also create a second database for “ar
 
 Finally, we should update the [Alembic](https://pypi.org/project/alembic/) data migration scripts.
 
-## Resume Revision
+##  5. <a name='ResumeRevision'></a>Resume Revision
 
-### Description
+###  5.1. <a name='Description-1'></a>Description
 
 📜 Microservice that provides an endpoint to manage and store resumes.
 
-### Getting Started
+###  5.2. <a name='GettingStarted-1'></a>Getting Started
 
-#### Setup
+####  5.2.1. <a name='Setup-1'></a>Setup
 
 ```bash
 git clone git@github.com:scrum-gang/resume-revision.git
@@ -487,12 +576,12 @@ The tech framework is using rails for 3 different environments:
 - `dev` which is used for developing the app locally
 - `production` which is deployed on heroku and uses azure active storage to store resumes.
 
-#### Running Tests
+####  5.2.2. <a name='RunningTests-1'></a>Running Tests
 
 In order to run the tests, the code needs to be pushed onto github to trigger the travis file to run the test folder.
 Also you can run tests locally by running `rails test`
 
-#### Folder Structure
+####  5.2.3. <a name='FolderStructure-1'></a>Folder Structure
 
 The folder structure of the resume-revision microservice is as follows:
 
@@ -531,7 +620,7 @@ The folder structure of the resume-revision microservice is as follows:
 
 The other folders are generated by by Rails and they are not very relevant.
 
-#### Database Information
+####  5.2.4. <a name='DatabaseInformation'></a>Database Information
 
 Details all the fields in the Resume model.
 
@@ -545,7 +634,7 @@ Details all the fields in the Resume model.
 | `:resume_data` | String | false    | The parsed raw :data            | user         |
 | `id`           | String | n/a      | id auto generated by Rails      | system       |
 
-### Technologies
+###  5.3. <a name='Technologies-1'></a>Technologies
 
 **Heroku** [here](https://dashboard.heroku.com)
 **Postgresql** [here](https://www.postgresql.org/docs/9.5/indexes-types.html)
@@ -554,7 +643,7 @@ Details all the fields in the Resume model.
 **Webmock** [here](https://github.com/bblimke/webmock)
 **Rails** [here](https://rubyonrails.org/)
 
-### Design Decisions
+###  5.4. <a name='DesignDecisions-1'></a>Design Decisions
 
 The dev environment uses Ruby on Rails for the app and the backend side and to manage the connections with the database.
 
@@ -572,7 +661,7 @@ The resume-revision service is hosted on Heroku. Using Travis CI, each time code
 
 Heroku was used as the deployment platform for several reasons. First of all, it integrates easily with other platform used such as Github, Travis CI, and mLab for the database. Moreover, it is free of charge for a project of this scale, and most importantly reliable when looking at down times and deployment speeds.
 
-### Task Distribution
+###  5.5. <a name='TaskDistribution-1'></a>Task Distribution
 
 The project was separated into two sprints.
 
@@ -582,7 +671,7 @@ In the second sprint, Abbas Yadollahi worked on fixing bugs, making sure the cod
 
 The history of commits is available on Github.
 
-### Limitations
+###  5.6. <a name='Limitations-1'></a>Limitations
 
 The resume-revision micro service requires all requests to follow the exact schema provided in order to attach a good resume pdf file.The current design does not check that the passed binary file is actually a pdf resume, an image or a virus. Therefore, All field must be populated and a good resume must be passed to the resume-revision in pdf format. We also don’t check the files uploaded so they could be infected.
 
@@ -598,15 +687,15 @@ Each resume has the following required attributes:
 
 The main reason of having a title and a revision is that sometimes users would like to customize their resumes depending on the job to focus on different skill set that might be more relevant to some postings.
 
-## Inhouse Postings
+##  6. <a name='InhousePostings'></a>Inhouse Postings
 
-### Description
+###  6.1. <a name='Description-1'></a>Description
 
 The Inhouse Posting module is a back-end microservice providing API endpoints to create job postings. It hosts the functionality and logic allowing recruiters to post job applications on the web app. When recruiters want to display job postings on our website through the user interface, the web app will connect to the inhouse-posting micro service and take care of storing, formatting and retrieving data. This is all achieved using a Nodejs architecture following a restful design. The specifics on the technology & architecture are highlighted in the _Technologies_ & _Design Decisions_ section.
 
-### Getting Started
+###  6.2. <a name='GettingStarted-1'></a>Getting Started
 
-#### Setup
+####  6.2.1. <a name='Setup-1'></a>Setup
 
 In order to setup the microservice, follow the steps below:
 
@@ -623,11 +712,11 @@ There is one Heroku deployment:
 
 - <https://inhouse-jobpostings.herokuapp.com/>
 
-#### Running Tests
+####  6.2.2. <a name='RunningTests-1'></a>Running Tests
 
 In order to run the tests, the code needs to be pushed onto github to trigger the travis file to run the test folder.
 
-#### Folder Structure
+####  6.2.3. <a name='FolderStructure-1'></a>Folder Structure
 
 The folder structure of the inhouse-postings microservice is as follows:
 
@@ -643,7 +732,7 @@ In the root, there are 4 folders; authentication, controllers, models, routes, t
 
 `test` folder contains a javascript file with the test environment and the tests on each endpoint.
 
-#### Database Information
+####  6.2.4. <a name='DatabaseInformation-1'></a>Database Information
 
 Each job posting has the following attributes:
 
@@ -672,7 +761,7 @@ Each job posting has the following attributes:
 - `deadline` : The deadline for the applicant to apply.  
    Type: `String`, Required: `true`
 
-### Technologies
+###  6.3. <a name='Technologies-1'></a>Technologies
 
 - **npm** is used as our package manager since the code is written in JavaScript. It is the default package manager for the JavaScript runtime environment Node.js, which is at the core of our architecture.  
   [npm](https://www.npmjs.com/)
@@ -694,7 +783,7 @@ List of npm (node.js) packages used:
 - **Mongoose** is used for our object and schema modelling since we are using MongoDB. It provides simple ways to describe our schema in node.js
 - **Chai** and **Mocha** are used to write our unit tests. It provides a BDD/TDD assertion library as well as a framework to run node.js unit tests that test our api endpoints.
 
-### Design Decisions
+###  6.4. <a name='DesignDecisions-1'></a>Design Decisions
 
 The design of the inhouse-posting backend service follows a model-route-controller architecture. The reason for choosing this type of architecture is because we needed routes to be seperate from their purpose handled in the controller. This way we can accomodate the frontend with different routes and worry about implementing them in another file.
 
@@ -716,7 +805,7 @@ The database chosen for this microservice is MongoDB. The rationale behind is th
 
 Heroku was used as the deployment platform for several reasons. First of all, it integrates easily with other platform used such as Github, Travis CI, and mLab for the database. Moreover, it is free of charge for a project of this scale, and most importantly reliable when looking at down times and deployment speeds.
 
-### Task Distribution
+###  6.5. <a name='TaskDistribution-1'></a>Task Distribution
 
 The project was separated into two sprints.
 
@@ -724,39 +813,39 @@ In the first sprint, Filip Bernevec defined the job posting database schema, as 
 
 In the second sprint, Filip Bernevec had to update the schema in order to have the similar entities as the job applications microservice. He also had to configure and deploy the app on Heroku, and implement authentication in the backend. As for Rami, he setup the testing environment using Mocha to test all the endpoints. He also handled crashing issues with the app, and added custom endpoints as requested by the frontend team.
 
-### Limitations
+###  6.6. <a name='Limitations-1'></a>Limitations
 
 The inhouse-postings micro service requires all requests to follow the exact schema provided to the recruiter. All field must be populated. Therefore one limitation is that if some non-conforming information is provided by the recruiter, i.e. a salary range rather than an absolute value for the salary, this information will have to be provided somewhere in the description and the salary must be left null. These small limitations are things that could be fixed as we would get feedback from users of the application in order to make a schema that best fits their needs.
 
 Another limitation is that the Heroku deployment is using a free tier plan. This means that the amount of computational resources is limited (512 MB RAM). The same holds for the MongoDB database, which only provides the application with a limited amount of storage due to the free tier plan. If this application were to scale up and the amount of concurrent users were to increase, this limited amount of resources would be insufficient.
 
-### Miscellaneous
+###  6.7. <a name='Miscellaneous-1'></a>Miscellaneous
 
-#### Endpoints
+####  6.7.1. <a name='Endpoints'></a>Endpoints
 
 The detailed endpoints can be found on in the README of the inhouse-posting repository. In summary, this microservice has endpoints for getting a posting by ID, getting a posting by recruiter, and getting all postings. It allows the recruiter to create a posting, to update by ID, and to delete by ID.
 
 There is a restriction on three endpoints, which require the user to be a recruiter. This authentication feature allows only the recruiter to create, update and delete a posting. In order to accomplish this authentication, those endpoints expect the HTTP request to have a JWT token in the header.
 
-## Web Application
+##  7. <a name='WebApplication'></a>Web Application
 
-### Description
+###  7.1. <a name='Description-1'></a>Description
 
 The front-end web application communicates with all microservices and serves as the end user’s main gateway to the JobHub application. The web application was built to run on any modern web browser (e.g. [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Chrome](https://www.google.com/chrome/), [Safari](https://www.apple.com/ca/safari/), etc.) using the open-source [ReactJS](https://reactjs.org/) view library as the backbone for our project.
 
-### Getting Started
+###  7.2. <a name='GettingStarted-1'></a>Getting Started
 
-#### Setup
+####  7.2.1. <a name='Setup-1'></a>Setup
 
 Ensure that you have [NodeJS](https://nodejs.org/en/) installed. Clone the scrum-gang/jobhub-web repository, go into the root directory of the project, and run `npm install` to install all dependencies. To run the project, simply run `npm start`. To maintain code quality, we recommend using the VSCode text editor, and having the TSLint and Prettier extensions installed to have proper code formatting.
 
-#### Running tests
+####  7.2.2. <a name='Runningtests-1'></a>Running tests
 
 We ran unit tests with the [Jest](https://jestjs.io/) test runner and the [Enzyme](https://airbnb.io/enzyme/) React testing utility. Essentially, the tests consisted of determining if the routes were correctly rendered for each page. We decided to limit the scope of our automated unit testing for the front-end since the core functionality of the APIs was already tested within each microservice. To run the tests, simply run the `npm test` command.
 
 We also had a suite of acceptance tests written in Java and Selenium, which performed the tasks on the live version of the website (see the scrum-gang/jobhub-selenium repository).
 
-#### Folder structure
+####  7.2.3. <a name='Folderstructure-1'></a>Folder structure
 
 ```bash
 public # HTML file that’s ultimately rendered
@@ -785,7 +874,7 @@ tslint.json # linter configuration
 
 ```
 
-### Technologies
+###  7.3. <a name='Technologies-1'></a>Technologies
 
 - [TypeScript](https://www.typescriptlang.org/): Superset of JavaScript with added Static Types
 - [ReactJS](https://reactjs.org/): view library for JavaScript
@@ -808,7 +897,7 @@ tslint.json # linter configuration
 - [Codecov](https://codecov.io/): Testing coverage analyzer
 - [Prettier](https://prettier.io/): Code formatter for VSCode
 
-### Design decisions
+###  7.4. <a name='Designdecisions'></a>Design decisions
 
 We chose React because it was a lightweight UI library that we could extend with different libraries (e.g. [react-router](https://github.com/ReactTraining/react-router) for routing, [Formik](https://jaredpalmer.com/formik/) and [Yup](https://github.com/jquense/yup) for form validation, [Material-UI](https://material-ui.com/) for pre-styled visual components, [react-toastify](https://fkhadra.github.io/react-toastify/) for live notifications, etc.)
 
@@ -820,30 +909,30 @@ To save persistent state, we used a mix of the browser's [localStorage API](http
 
 The application was deployed using [Netlify](https://www.netlify.com/), a free static site host with many useful features, such as Continuous Deployment, HTTPS, and deployment previews (with each GitHub pull request). [Travis CI](https://travis-ci.org/) was also added to have Continuous Integration with our unit tests, as well as [Codacy](https://www.codacy.com/) to have continuous integration with static analysis of our code with each pull request.
 
-### Task distribution
+###  7.5. <a name='Taskdistribution-1'></a>Task distribution
 
 Erick Zhao worked on bootstrapping the application, writing the API layer, laying out the UI, handling persistence, developing the Authentication and In-house Job Posting features, and handling unit tests. Suleman Malik worked on a few UI tasks and the Resume Revision integration. Sebastian Andrade worked on the Recruiter dashboard. Alexander Bratyshkin handled a lot of the logic for Job Applications. Laurent Chenet worked on acceptance tests. Bogdan Dumitru worked on editing and deleting profiles. Andrei Ungur worked on integrating the in-house job posting API with the applications API.
 
-### Limitations
+###  7.6. <a name='Limitations-1'></a>Limitations
 
 The web app might run slowly because all of its APIs that it queries are run on Heroku dynos that sleep when inactive. There is no catch-all 404 route for when a user enters an invalid URL. Some of our forms have poor user interface practices
 
-## Chrome Extension
+##  8. <a name='ChromeExtension'></a>Chrome Extension
 
-### Description
+###  8.1. <a name='Description-1'></a>Description
 
 The Chrome extension is meant to be an ad-hoc access to the JobHub services. When the users are on a job application website, they don't need to stop browsing the post in order to open the JobHub website on a separate tab. Instead, they can start tracking the given application via the popup submit directly on the job posting website.
 This component is meant to be as unobtrusive as possible in the user's browsing experience, while nonetheless providing a quick access to the main JobHub use cases.
 
 Any user, both registered or unregistered with the JobHub services, can begin using the extension within a Chrome browser in any website. It suffices to click on the extension's icon on the top left corner of the browser and the login form will popup. The user can register to JobHub by clicking the _register_ button, which will redirect him to the Frontend service to complete the registering form. If he already has an account, he can login by entering his credentials. This will log the user and store the JWT token required to perform operations with the JobHub services. Subsequent logins within the same browser session will automatically login the user. Once the user is authenticated, the Job Posting form will be displayed. If the user opened the extension from within a website containing a job application, the extension will automatically detect the name of the company, the position, the URL, and the date the posting was posted. The user fills the remaining details, such as CV used, and whether or not they already applied or will apply. Note that the CVs must be added from the Frontend service. After the user is done submitting job applications to the JobHu service, he can click anywhere in the browser outside of the extension popup to close the widget.
 
-### Getting started
+###  8.2. <a name='Gettingstarted'></a>Getting started
 
 | Extension Logo                                     | Login Popup                                     | Job Posting Form                                     |
 | -------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------- |
 | ![Extension Logo](https://i.imgur.com/v5s8wRW.png) | ![Login Popup](https://i.imgur.com/GXQQewr.png) | ![Job Posting Form](https://i.imgur.com/rQyb5oD.png) |
 
-#### Setup
+####  8.2.1. <a name='Setup-1'></a>Setup
 
 All the technologies named here will be further explained in the _Technologies_ section.
 
@@ -874,11 +963,11 @@ All the technologies named here will be further explained in the _Technologies_ 
 5. If you haven't done so previously, [unpack the extension locally in your browser](https://developer.chrome.com/extensions/getstarted#manifest).  
    Note that you only really need to run this step once.
 
-#### Testing
+####  8.2.2. <a name='Testing'></a>Testing
 
 As shown in point #4, the NPM test runner will take care of continuously running the test suite everytime the source code is modified. Testing was integrated into the development cycle since the first sprint. The team chose to write tests for features that did not require mocking at the same time that the components were being implemented. To ensure accountability for testing, the issue and the pull request forms had a field specifying how the test coverage of the component under question was modified. TravisCI would also flag any pull requests which reduced the test coverage of the system as a whole.
 
-#### Folder structure
+####  8.2.3. <a name='Folderstructure-1'></a>Folder structure
 
 ```bash
 .
@@ -897,7 +986,7 @@ As shown in point #4, the NPM test runner will take care of continuously running
 └── webpack.config.js   # Webpack config
 ```
 
-#### Contributor guidelines
+####  8.2.4. <a name='Contributorguidelines'></a>Contributor guidelines
 
 ##### Code of conduct
 
@@ -948,7 +1037,7 @@ We were keen on developing a safe system, hence we were open and explicit in the
   - Created tests which fail without the change (if possible)
   - Extended the README / documentation (if necessary)
 
-### Technologies
+###  8.3. <a name='Technologies-1'></a>Technologies
 
 - [ReasonML](https://reasonml.github.io/): syntax extension for the OCaml language that resembles JavaScript. Used as main development language for the Chrome Extension.
 - [Bucklescript](https://bucklescript.github.io/): it is a backend for the OCaml compiler which emits JavaScript. Used to generate JavaScript files from the ReasonML source code.
@@ -960,7 +1049,7 @@ We were keen on developing a safe system, hence we were open and explicit in the
 - [Editorconfig](https://editorconfig.org/): style linter. Used to homogenize the style across all the developers of the Chrome Extension.
 - [TravisCI](https://travis-ci.org/): Continuous Integration web service. Used to run the test suite automatically on every branch for every commit.
 
-### Design decisions
+###  8.4. <a name='Designdecisions-1'></a>Design decisions
 
 From a high level perspective the Chrome Extension has four main React components:
 
@@ -999,7 +1088,7 @@ We chose to provide an extension only for Chrome and not for Internet Explorer o
 
 We chose editorconfig for the linting of the code base to homogenize developers' code. While the Bucklescript already performs major linting of the code before compilation, minor details such as maximum line length and required documentation are checked by editorconfig.
 
-### Task distribution
+###  8.5. <a name='Taskdistribution-1'></a>Task distribution
 
 The first sprint team was comprised of Alexander Bratyshkin and Camilo Garcia La Rotta.
 
@@ -1010,7 +1099,7 @@ The second sprint team was solely comprised of Camilo Garcia La Rotta.
 
 - **Camilo Garcia La Rotta**: he focused on connecting the JobApp form to the CV revision and Job postings API. He added the test suite for all external facing methods of the application as well as adding features specified in the use cases such as avoid submitting an application twice.
 
-### Limitations
+###  8.6. <a name='Limitations-1'></a>Limitations
 
 - Currently, the only supported `posted date` scraper pattern is `"<num> days ago"`
 - Currently, the extension does not have a `deadline date` scraper
@@ -1019,7 +1108,7 @@ The second sprint team was solely comprised of Camilo Garcia La Rotta.
 - For the same reason as above, we can't use Chrome's [Content Scripts](https://developer.chrome.com/extensions/content_scripts).
   Instead we inject a script into the active website to extract DOM information.
 
-### Miscellaneous
+###  8.7. <a name='Miscellaneous-1'></a>Miscellaneous
 
 The team chose to develop the Chrome Extension on a issue based approach. This meant that an issue was to be created for each feature to be developed, so that every pull request had an issue assigned to it and the issue would be closed automatically by GitHub once merged into master.
 The project also followed [semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) in order to reduce the cognitive load required to understand the changes done to the codebase since a given commit. The naming convention for every branch would hence be `feat/<short_issue_description>-<issue-number>` for a given feature being implemented. This allowed the team to quickly parse the multiple branches being worked on concurrently.
