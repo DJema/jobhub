@@ -49,21 +49,24 @@ Additionally, the task list allowed the team and, more specifically, the scrum m
 
 ### Backlog Grooming
 
-At the start of the first sprint, we brainstormed a list of all features we intended to implement. This formed the basis of our product backlog. Each item in the product backlog was represented by a user story however the product backlog also contained all features, functions and requirements. After all requirements and features were defined, we grouped the items into high, medium and low priority user stories. Once the user stories were defined, we broke up the user stories into tasks, addressed the acceptance criteria for each and estimated the effort of each.
+At the start of the first sprint, we brainstormed a list of all features we intended to implement. This formed the basis of our product backlog. Each item in the product backlog was represented by a user story however the product backlog also contained all features, functions and requirements. After all requirements and features were defined, we grouped the items into high, medium and low priority user stories. Once the user stories were defined, we broke up the user stories into tasks, addressed the acceptance criteria for each and estimated the effort of each. Because our main priority was to deliver working software frequently, we made sure to pay extra attention to higher priority stories when grooming the backlog.
 
-By the second sprint our backlog grooming process did not evolve much. Besides minor adjustments to some tasks, we followed the same process of looking over each user story and converting them to tasks and their estimated efforts.
+By the second sprint our backlog grooming process did not evolve much. Besides minor adjustments to some tasks, we followed the same process of looking over each user story and converting them to tasks and their estimated efforts. 
+
 
 ### Sprint Planning
 
 Our team carried out sprint planning at the beginning of each sprint and during our weekly meetings where we refined our stories (backlog grooming). The scrum master facilitated the meeting with the entire team present where we discussed the stories and associated tasks involved with each feature. After the feature was discussed with the entire team, each member defined their work and effort necessary to complete their assigned task.
 
-From sprint 1 to sprint 2 there was no change in terms of planning. However, we had to adjust the roles of our team members due to one of our peers dropping out of the class at the beginning of the first sprint and only informing us late in the first sprint. Because of his absence we had one less developer on his microservice and had to adjust accordingly. Because he did not inform us of him dropping the course, we operated on the assumption that he was completing his tasks. Because of his unresponsiveness we only learnt late into the first sprint that he had in fact not completed any of his assigned tasks. This lead to an evolution in how we planned the effort of our tasks for sprint 2. For example, we had to be more conservative with story estimation because of having one less team member. We had to adjust the ownership of the microservice he had been assigned to in order to make sure the tasks had been completed. Given that we had a large pool of talent within our team, the entire microservice that was left without a member was completed by one developer.
+From sprint 1 to sprint 2 there was no change in terms of planning. However, we had to adjust the roles of our team members due to one of our peers dropping out of the class at the beginning of the first sprint and only informing us late in the first sprint. Because of his absence we had one less developer on his microservice and had to adjust accordingly. Because he did not inform us of him dropping the course, we operated on the assumption that he was completing his tasks. Additionally, because of his unresponsiveness we only learned late into the first sprint that he had in fact not completed any of his assigned tasks. This lead to an evolution in how we planned the effort of our tasks for sprint 2. For example, we had to be more conservative with story estimation because of having one less team member. Because our objective during each sprint was to maintain a constant pace we had to respond to this change in our team dynamic and deviate from our original plan. We had to adjust the ownership of the microservice he had been assigned to in order to make sure the tasks had been completed. Given that we had a large pool of talent within our team, the entire microservice that was left without a member was completed by one developer. 
+
 
 ### Story Estimation
 
-Instead of estimating a story based on points as is done in industry, we estimated the effort involved in fully implementing a story based on the effort involved for each task of the story. This allowed us to have a slightly simpler model for evaluating the importance of a story.
+Instead of estimating a story based on points as is done in industry, we estimated the effort involved in fully implementing a story based on the effort involved for each task of the story. This allowed us to have a slightly simpler model for evaluating the importance of a story. 
 
-This process did not evolve from the first to second sprint. Firstly, we wanted to keep the same method of story estimation to maintain continuity between the two sprints. Secondly, we did not feel the need to change how we estimated a story’s effort because we did not run into any problems in the first sprint.
+This process did not evolve from the first to second sprint. Firstly, we wanted to keep the same method of story estimation to maintain continuity between the two sprints. Secondly, we did not feel the need to change how we estimated a story’s effort because we did not run into any problems in the first sprint and we were able to mark all our tasks as completed.
+
 
 ### Daily Standup Meetings
 
@@ -75,19 +78,27 @@ However, to make sure the team was in-sync with each-other and the progress of t
 
 With such a robust scrum meeting system put in place early in development, there was not much change in the format of the meeting. However, albeit usually short meetings were held, weeks where larger deliverables were due required longer meetings, and as such the scrum master needed to warn the rest of the team to be available longer than usual.
 
+
 ### Sprint Demo
 
-At the end of each of the sprints, we had a release branch which signified it as demo-ready. After the second sprint ended we demoed the full application and its functionalities to the TA.
+At the end of each of the sprints, we had a release branch which signified it as demo-ready. After the second sprint ended we demoed the full application and its functionalities to the TA. During our weekly meetings, the sub-teams demoed their progress in order to ensure continuously delivering a release-ready project. This obviously was not as important during the first few weeks of the sprint but towards the end was crucial in our meetings. 
+
+From the first to second sprint there was no evolution in how we preformed sprint demos. 
+
 
 ### Sprint Retrospective
 
-Sprint retrospective meetings were held once after every sprint and were incorporated in the weekly scrum meeting. For the first sprint retrospective, our team discussed what went well and what could be improved upon. Because we only had 2 sprints, we only had the opportunity to implement the suggestions from one sprint retrospective. However, in order to ensure the team was as efficient as possible we regularly discussed any blockers and progress during our weekly meetings at great length.
+Sprint retrospective meetings were held once after every sprint and were incorporated in the weekly scrum meeting. For the first sprint retrospective, our team discussed what went well and what could be improved upon. Because we only had 2 sprints, we only had the opportunity to implement the suggestions from one sprint retrospective. However, in order to ensure the team was as efficient as possible we regularly discussed any blockers and progress during our weekly meetings at great length. 
+
+We did not change our approach to the sprint retro from the first to the second sprint. While discussing what could be worked on, we made it a point to ensure that there was continuous attention to technical details as well as following good design practices.
+
 
 ### Collaboration Between Team Members
 
-Given that we were a team of 14 members it was not always easy to coordinate between everyone. Because of the scarce facilities McGill offered for meetings of this size and everyone’s incompatible schedules, we opted to form sub teams. In order to facilitate collaboration between members we split the application into microservices. Each microservice was assigned to a sub team which made face-to-face collaboration between those members easier. Through the weekly meetings, each respective sub team could then update the whole team on their progress. Additionally, because of the smaller teams working on subset of tasks, we utilized pair programming which lead to less errors and more robust code.
+Given that we were a team of 14 members it was not always easy to coordinate between everyone. Because of the scarce facilities McGill offered for meetings of this size and everyone’s incompatible schedules, we opted to form sub teams. In order to facilitate collaboration between members we split the application into microservices. Each microservice was assigned to a sub team which made face-to-face collaboration between those members easier. Through the weekly meetings, each respective sub team could then update the whole team on their progress. Additionally, because of the smaller teams working on subset of tasks, we utilized pair programming which lead to less errors and more robust code. Moreover, we felt that breaking up into self-organizing teams would lead to the greatest efficiency, architecture and design. Maintaining smaller teams facilitated collaboration which in turn greatly increased the simplicity of dependence between members. 
 
-We did not consider another method of collaboration as we felt this was most effective. AS mentioned before, the large team size was a blocker for collaboration so splitting into subteams was the optimal choice for us. From sprint 1 to sprint 2 we did not evolve this strategy. However, because some microservices were finished earlier we did rotate members into other sub-teams to balance the workload.
+We did not consider another method of collaboration as we felt this was most effective. As mentioned before, the large team size was a blocker for collaboration so splitting into subteams was the optimal choice for us. From sprint 1 to sprint 2 we did not evolve this strategy. However, because some microservices were finished earlier we did rotate members into other sub-teams to balance the workload. 
+
 
 # Architecture
 
