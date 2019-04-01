@@ -15,6 +15,10 @@ Rami Djema - 260668934
 Sebastian Andrade - 260513637
 Suleman Malik - 260652774
 
+# Table of Contents
+
+<!-- TOC -->autoauto- [Table of Contents](#table-of-contents)auto- [Motivation and Reason](#motivation-and-reason)auto- [Project Management](#project-management)auto    - [Project Preparation](#project-preparation)auto        - [Done Checklist](#done-checklist)auto        - [Product Backlog](#product-backlog)auto        - [Sprint Backlog and Task List](#sprint-backlog-and-task-list)auto    - [Scrum Rituals](#scrum-rituals)auto        - [Backlog Grooming](#backlog-grooming)auto        - [Sprint Planning](#sprint-planning)auto        - [Story Estimation](#story-estimation)auto        - [Daily Standup Meetings](#daily-standup-meetings)auto        - [Sprint Demo](#sprint-demo)auto        - [Sprint Retrospective](#sprint-retrospective)auto        - [Collaboration Between Team Members](#collaboration-between-team-members)auto- [The Architecture](#the-architecture)auto    - [Authentication](#authentication)auto        - [Description](#description)auto        - [Getting Started](#getting-started)auto            - [Setup](#setup)auto            - [Running tests](#running-tests)auto            - [Deployment](#deployment)auto            - [Folder structure](#folder-structure)auto            - [Database Info](#database-info)auto        - [Technologies](#technologies)auto        - [Design Decisions](#design-decisions)auto        - [Task Distribution](#task-distribution)auto        - [Limitations](#limitations)auto    - [Job Applications](#job-applications)auto        - [Description](#description-1)auto        - [Getting Started](#getting-started-1)auto            - [Setup](#setup-1)auto            - [Running Tests](#running-tests)auto            - [Folder Structure](#folder-structure)auto            - [Database Info](#database-info-1)auto                - [Applications](#applications)auto                - [Inhouse](#inhouse)auto                - [External](#external)auto                - [InterviewQuestion](#interviewquestion)auto        - [Technologies](#technologies-1)auto        - [Design Decisions](#design-decisions-1)auto        - [Task distribution](#task-distribution)auto        - [Limitations](#limitations-1)auto        - [Miscellaneous](#miscellaneous)auto            - [Future Work](#future-work)auto    - [Resume Revision](#resume-revision)auto        - [Description](#description-2)auto        - [Getting Started](#getting-started-2)auto            - [Setup](#setup-2)auto            - [Running Tests](#running-tests-1)auto            - [Folder Structure](#folder-structure-1)auto            - [Database Information](#database-information)auto        - [Technologies](#technologies-2)auto        - [Design Decisions](#design-decisions-2)auto        - [Task Distribution](#task-distribution-1)auto        - [Limitations](#limitations-2)auto    - [Inhouse Postings](#inhouse-postings)auto        - [Description](#description-3)auto        - [Getting Started](#getting-started-3)auto            - [Setup](#setup-3)auto            - [Running Tests](#running-tests-2)auto            - [Folder Structure](#folder-structure-2)auto            - [Database Information](#database-information-1)auto        - [Technologies](#technologies-3)auto        - [Design Decisions](#design-decisions-3)auto        - [Task Distribution](#task-distribution-2)auto        - [Limitations](#limitations-3)auto        - [Miscellaneous](#miscellaneous-1)auto            - [Endpoints](#endpoints)auto    - [Web Application](#web-application)auto        - [Description](#description-4)auto        - [Getting Started](#getting-started-4)auto            - [Setup](#setup-4)auto            - [Running tests](#running-tests-1)auto            - [Folder structure](#folder-structure-1)auto        - [Technologies](#technologies-4)auto        - [Design decisions](#design-decisions)auto        - [Task distribution](#task-distribution-1)auto        - [Limitations](#limitations-4)auto    - [Chrome Extension](#chrome-extension)auto        - [Description](#description-5)auto        - [Getting started](#getting-started)auto            - [Setup](#setup-5)auto            - [Testing](#testing)auto            - [Folder structure](#folder-structure-2)auto            - [Contributor guidelines](#contributor-guidelines)auto                - [Code of conduct](#code-of-conduct)auto                - [Issues and bug forms](#issues-and-bug-forms)auto                - [Pull request forms](#pull-request-forms)auto        - [Technologies](#technologies-5)auto        - [Design decisions](#design-decisions-1)auto        - [Task distribution](#task-distribution-2)auto        - [Limitations](#limitations-5)auto        - [Miscellaneous](#miscellaneous-2)autoauto<!-- /TOC -->
+
 # Motivation and Reason
 
 With the increasing complexity of the job searching process, it has become extremely difficult to keep track of one's job applications. Indeed, it is not rarely that one ends up receiving a call from a company to which they don't even remember applying to. This is largely due to how distributed the recruitment process has become: a job searcher has to find out about openings on different portals (Glassdoor, Linkedin, ...) and then subsequently has to fill out an application in different companies' career sites (Facebook's, Amazon's, ...). Naturally, in such circumstances, a person can become overwhelmed and can quite easily lose track of where one has applied, especially when aggressively applying to a plethora of openings (as it is often the case for students looking for internships or for people in desperate need of a job). Our product's aim is to facilitate the job hunt process by providing an seamless platform which allows users to efficiently manage their applications. Users can, in a click of our Chrome extension, easily add the application to which they've just applied (from Google's career site, Indeed.com, Linkedin, ...) into their own personal backlog of applications, without having to, for example, manually fill out entries inside of an Excel spreadsheet. This backlog, or history of applications, can quickly be accessed from our web portal, in which users can view relevant information related to a particular application in a very expressive way (company, position, title, deadlines, ...) and/or perform grooming tasks such as, for example, update its status (applied, rejected, offer, ...). Additionally, we provide functionalities that allow users to externalize memories instead of worrying about remembering them; an example of this would be our "interview questions" feature in which users can easily associate interview questions that they actually had to a particular application. We believe that through the organizational power that our neat interface provides, users are going to be able to gain meaningful insights into the progress of their search for employment and manage it with much more confidence. Jobhub's ultimate goal is to help its users remain organized and methodical throughout their job hunt in hopes of lightening the anxiety of what is already an extremely burdensome process.
@@ -43,10 +47,9 @@ The sprint backlog allowed the team to plan their work for a short period of tim
 
 ### Backlog Grooming
 
-At the start of the first sprint, we brainstormed a list of all features we intended to implement. This formed the basis of our product backlog. Each item in the product backlog was represented by a user story however the product backlog also contained all features, functions and requirements. After all requirements and features were defined, we grouped the items into high, medium and low priority user stories. Once the user stories were defined, we broke up the user stories into tasks, addressed the acceptance criteria for each and estimated the effort of each. 
+At the start of the first sprint, we brainstormed a list of all features we intended to implement. This formed the basis of our product backlog. Each item in the product backlog was represented by a user story however the product backlog also contained all features, functions and requirements. After all requirements and features were defined, we grouped the items into high, medium and low priority user stories. Once the user stories were defined, we broke up the user stories into tasks, addressed the acceptance criteria for each and estimated the effort of each.
 
-By the second sprint our backlog grooming process did not evolve much. Besides minor adjustments to some tasks, we followed the same process of looking over each user story and converting them to tasks and their estimated efforts. 
-
+By the second sprint our backlog grooming process did not evolve much. Besides minor adjustments to some tasks, we followed the same process of looking over each user story and converting them to tasks and their estimated efforts.
 
 ### Sprint Planning
 
@@ -56,31 +59,33 @@ From sprint 1 to sprint 2 there was no change in terms of planning. However, we 
 
 ### Story Estimation
 
-Instead of estimating a story based on points as is done in industry, we estimated the effort involved in fully implementing a story based on the effort involved for each task of the story. This allowed us to have a slightly simpler model for evaluating the importance of a story. 
+Instead of estimating a story based on points as is done in industry, we estimated the effort involved in fully implementing a story based on the effort involved for each task of the story. This allowed us to have a slightly simpler model for evaluating the importance of a story.
 
-This process did not evolve from the first to second sprint. Firstly, we wanted to keep the same method of story estimation to maintain continuity between the two sprints. Secondly, we did not feel the need to change how we estimated a story’s effort because we did not run into any problems in the first sprint. 
+This process did not evolve from the first to second sprint. Firstly, we wanted to keep the same method of story estimation to maintain continuity between the two sprints. Secondly, we did not feel the need to change how we estimated a story’s effort because we did not run into any problems in the first sprint.
 
 ### Daily Standup Meetings
 
 Daily scrums were done informally within subteams, as a daily standup comprised of all fourteen members of the team would be infeasible and counter-productive considering the nature of the project. It would have required a lot of effort to organize the meeting around every member’s schedule. Seeing the project required each team member to work on the product for a minimum of three hours a week, a daily scrum meeting does not provide enough content to justify its existence.
 
-As such, to use the time allocated to the project more efficiently, daily scrums were left at the discretion of each subteam, which opted to communicate daily over the corresponding Discord text channel. This also allowed other teams to read what the team had been doing if the matters concerned them. 
+As such, to use the time allocated to the project more efficiently, daily scrums were left at the discretion of each subteam, which opted to communicate daily over the corresponding Discord text channel. This also allowed other teams to read what the team had been doing if the matters concerned them.
 
 However, to make sure the team was in-sync with each-other and the progress of the product, we held weekly scrum meetings. We opted to hold these meetings remotely over a Discord voice channel seeing the large majority of the team resides far from campus. A few challenges arose using this method. The size of the team made choosing a time where each student was available very complicated. Additionally, there were also exceptional situations where team members simply could not assist the meeting due to personal reasons, and thus needed to still have access to the new information that arose during the weekly scrum. The solution we chose was to hold the weekly scrum on Mondays right before class. This is a time where every member of the team was available and would start the new week of the sprint early enough for subteams to incorporate the information discussed in the meeting. As the concept of a scrum meeting entails, the weekly meeting served to put all the subteams on the same level with the project as a whole and to assess how their work is developing. Three pieces of information were thus needed: what was done in the previous week, what was going to be done in the next week, and identifying major internal or external blockers. Also, the scrum master would also make any new announcements he received from the teacher assistant. To ensure that even the absent members were kept informed of the discussions had in the scrum meeting, minutes were taken and posted to a Google Drive folders and hyperlinked in the appropriate Discord text channel.
 
 With such a robust scrum meeting system put in place early in development, there was not much change in the format of the meeting. However, albeit usually short meetings were held, weeks where larger deliverables were due required longer meetings, and as such the scrum master needed to warn the rest of the team to be available longer than usual.
 
 ### Sprint Demo
-At the end of each of the sprints, we had a release branch which signified it as demo-ready. After the second sprint ended we demoed the full application and its functionalities to the TA. 
+
+At the end of each of the sprints, we had a release branch which signified it as demo-ready. After the second sprint ended we demoed the full application and its functionalities to the TA.
 
 ### Sprint Retrospective
 
-Sprint retrospective meetings were held once after every sprint and were incorporated in the weekly scrum meeting. For the first sprint retrospective, our team discussed what went well and what could be improved upon. Because we only had 2 sprints, we only had the opportunity to implement the suggestions from one sprint retrospective. However, in order to ensure the team was as efficient as possible we regularly discussed any blockers and progress during our weekly meetings at great length. 
+Sprint retrospective meetings were held once after every sprint and were incorporated in the weekly scrum meeting. For the first sprint retrospective, our team discussed what went well and what could be improved upon. Because we only had 2 sprints, we only had the opportunity to implement the suggestions from one sprint retrospective. However, in order to ensure the team was as efficient as possible we regularly discussed any blockers and progress during our weekly meetings at great length.
 
 ### Collaboration Between Team Members
-Given that we were a team of 14 members it was not always easy to coordinate between everyone. Because of the scarce facilities McGill offered for meetings of this size and everyone’s incompatible schedules, we opted to form sub teams. In order to facilitate collaboration between members we split the application into microservices. Each microservice was assigned to a sub team which made face-to-face collaboration between those members easier. Through the weekly meetings, each respective sub team could then update the whole team on their progress. Additionally, because of the smaller teams working on subset of tasks, we utilized pair programming which lead to less errors and more robust code. 
 
-We did not consider another method of collaboration as we felt this was most effective. AS mentioned before, the large team size was a blocker for collaboration so splitting into subteams was the optimal choice for us. From sprint 1 to sprint 2 we did not evolve this strategy. However, because some microservices were finished earlier we did rotate members into other sub-teams to balance the workload. 
+Given that we were a team of 14 members it was not always easy to coordinate between everyone. Because of the scarce facilities McGill offered for meetings of this size and everyone’s incompatible schedules, we opted to form sub teams. In order to facilitate collaboration between members we split the application into microservices. Each microservice was assigned to a sub team which made face-to-face collaboration between those members easier. Through the weekly meetings, each respective sub team could then update the whole team on their progress. Additionally, because of the smaller teams working on subset of tasks, we utilized pair programming which lead to less errors and more robust code.
+
+We did not consider another method of collaboration as we felt this was most effective. AS mentioned before, the large team size was a blocker for collaboration so splitting into subteams was the optimal choice for us. From sprint 1 to sprint 2 we did not evolve this strategy. However, because some microservices were finished earlier we did rotate members into other sub-teams to balance the workload.
 
 # The Architecture
 
@@ -92,11 +97,11 @@ The second reason is distribution of tasks. By keeping ourselves localized to sm
 
 As for more technical concerns, we chose microservices because it's an architecture which significantly improves fault isolation (since failures are localized to specific modules and not to the whole application as a whole), because it gave the flexibility (for those who wanted it) to experiment with new technologies without having to worry about dependency concerns or roll back changes, and finally because reasoning about microservices it's extremely easy, meaning that the functionality of our service was very easy to understand.
 
-We also considered a service-oriented architecture, but quickly realized that this would imply setting up a standardized communications protocol over a network, such as for example an enterprise service bus. However, this would’ve been too extravagant for the purposes of our project without really offering any significant benefits. A microservice architecture is significantly easier to implement and simpler to reason about.  
+We also considered a service-oriented architecture, but quickly realized that this would imply setting up a standardized communications protocol over a network, such as for example an enterprise service bus. However, this would’ve been too extravagant for the purposes of our project without really offering any significant benefits. A microservice architecture is significantly easier to implement and simpler to reason about.
 
-Given our microservice architecture, it was most natural for us to split each microservice/module into its own repository, as opposed to having everything in a monolith repo. First and foremost, this would prevent us from dealing with the clutter that’s engendered by having everything in one repo, e.g. the exponential number of commits and issues, most unrelated to each other; we thought that having separate repos would simply be cleaner and would allow us to remain better organized. Secondly, multiple repos establish a clearer separation of concerns: why would the frontend team have to worry about very specific technical changes inside of one of the microservices, for instance? Additionally, having multiple repos lessened our risk of having to deal with undesired conflicts and merges, which naturally sped up the development process. Finally, setting up CI/CD and dependency management when all modules are isolated in their own repos is easier because we can simply use preset configurations without having to waste time on dealing with more intricate operational issues, such as for example manually configuring package managers or CD config files, or having to be constrained by very specific folder structures. Of course, the other advantage is that sub-teams are given the freedom to pick their own preferred CI/CD options, without being limited by a particular choice with which they might feel less comfortable. 
+Given our microservice architecture, it was most natural for us to split each microservice/module into its own repository, as opposed to having everything in a monolith repo. First and foremost, this would prevent us from dealing with the clutter that’s engendered by having everything in one repo, e.g. the exponential number of commits and issues, most unrelated to each other; we thought that having separate repos would simply be cleaner and would allow us to remain better organized. Secondly, multiple repos establish a clearer separation of concerns: why would the frontend team have to worry about very specific technical changes inside of one of the microservices, for instance? Additionally, having multiple repos lessened our risk of having to deal with undesired conflicts and merges, which naturally sped up the development process. Finally, setting up CI/CD and dependency management when all modules are isolated in their own repos is easier because we can simply use preset configurations without having to waste time on dealing with more intricate operational issues, such as for example manually configuring package managers or CD config files, or having to be constrained by very specific folder structures. Of course, the other advantage is that sub-teams are given the freedom to pick their own preferred CI/CD options, without being limited by a particular choice with which they might feel less comfortable.
 
-The two most popular choices for an application which interfaces with multiple microservices/systems are REST and GraphQL. We opted for the former for all of our microservices simply because it is a well-established technology. A lot of our members are unfamiliar with GraphQL, and we didn’t want them to waste time on climbing the learning curve in exchange of no real major benefit for the modest purposes of our project.     
+The two most popular choices for an application which interfaces with multiple microservices/systems are REST and GraphQL. We opted for the former for all of our microservices simply because it is a well-established technology. A lot of our members are unfamiliar with GraphQL, and we didn’t want them to waste time on climbing the learning curve in exchange of no real major benefit for the modest purposes of our project.
 
 The following subsections detail the architectures, design decisions and technology choices of the particular microservices themselves.
 
@@ -194,7 +199,6 @@ Details all the fields in the User model.
 | `created_at`    | Date    | n/a      | n/a                             | system       |
 | `updated_at`    | Date    | n/a      | n/a                             | system       |
 
-
 All `/users` endpoints except for `/users/self` are restricted to moderators only. Moderators have unrestricted access to all endpoints. Only a moderator can promote another user to a moderator role.
 
 Note: Restrictions on endpoints can be bypassed by passing the `secret` header in the request. Ask someone on authentication for the secret or see pinned message on authentication channel on Discord.
@@ -214,7 +218,7 @@ Note: Restrictions on endpoints can be bypassed by passing the `secret` header i
 - [Heroku](https://www.heroku.com/): Cloud hosting
 - [mongodb-memory-server](https://www.npmjs.com/package/mongodb-memory-server): DB mocking.
 - [eslint](https://eslint.org/): Linter
-- [Visual Studio Code](https://code.visualstudio.com/): Main IDE used. 
+- [Visual Studio Code](https://code.visualstudio.com/): Main IDE used.
 
 ### Design Decisions
 
@@ -254,62 +258,70 @@ Laurent Chenet: Endpoint implementation, input validation for endpoints.
 
 ### Limitations
 
-As it stands, our authentication supports an IP blocking feature for when a certain IP sends more than 20 requests in 1 minute or fails 10 login attempts in 5 minutes. At this time, the amount of time that the IP address times out is hard coded to be 5 minutes, which works in terms of functionality, though an improvement that could be made would be to implement it so that the length of the timeout varies depending on the number of times the IP has been timed out. This is something that would be worth doing to improve the security of the system in the future. 
+As it stands, our authentication supports an IP blocking feature for when a certain IP sends more than 20 requests in 1 minute or fails 10 login attempts in 5 minutes. At this time, the amount of time that the IP address times out is hard coded to be 5 minutes, which works in terms of functionality, though an improvement that could be made would be to implement it so that the length of the timeout varies depending on the number of times the IP has been timed out. This is something that would be worth doing to improve the security of the system in the future.
 
 Additionally, we believe that it would be useful to include a feature where a moderator can see which users are currently logged in and which are not. This was originally in our low priority stories, though due to the time constraint of the course, we decided that it wasn’t worth implementing in the scope of this project. However, since all other requirements related to the main functionality of our authentication are currently completed, this would be the next item to implement.
-
 
 ## Job Applications
 
 ### Description
+
 This microservice allows authenticated users to track applications to jobs. The microservice handles applications to inhouse postings and external postings differently to ensure we don’t create redundancies in the stored data, but most other functionality is generic to any type of application.
 
 ### Getting Started
 
 #### Setup
+
 Note: For making contributions, an ideal development environment is [Visual Studio Code](https://code.visualstudio.com/) as it is lightweight and provides syntax highlighting. [PyCharm](https://www.jetbrains.com/pycharm/) is also a good option, as it is a industry-standard [Python](https://www.python.org/downloads/release/python-360/) development environment.
 
 To run the microservice, you need to...
 
-* ... create a virtual python environment using the following command: `python -m venv venv`
-* ... activate the environment: `source venv/bin/activate`
-* ... install the dependencies: `pip install -r requirements.txt`
-* ... run the API : `python app.py`
+- ... create a virtual python environment using the following command: `python -m venv venv`
+- ... activate the environment: `source venv/bin/activate`
+- ... install the dependencies: `pip install -r requirements.txt`
+- ... run the API : `python app.py`
 
 Once inside the virtual environment, make sure to have [PostgreSQL](https://www.postgresql.org/) installed on your computer.
 
 Create a database named `jobapplications` and grant any of your psql users permissions to it.
 
 To do this:
-* `sudo -u postgres psql` to connect to the database;
-* `CREATE USER potato WITH PASSWORD 'potato_pw';` to create a user;
-* `grant all privileges on database jobapplications to potato;` to grant the user privileges;
+
+- `sudo -u postgres psql` to connect to the database;
+- `CREATE USER potato WITH PASSWORD 'potato_pw';` to create a user;
+- `grant all privileges on database jobapplications to potato;` to grant the user privileges;
 
 Next, you'll want to set your environment variables to contain the database log-in credentials:
-* `export PSQL_USER="potato"`
-* `export PSQL_PW="potato_pw"`
+
+- `export PSQL_USER="potato"`
+- `export PSQL_PW="potato_pw"`
 
 Finally, you can create the tables in your database using the `setup.py` script.
-* `python setup.py`
+
+- `python setup.py`
 
 You now have an instance of the database with the correct tables and columns.
 
 #### Running Tests
+
 [![Build Status](https://travis-ci.org/scrum-gang/jobapplications.svg?branch=master)](https://travis-ci.org/scrum-gang/jobapplications)
 
 [![codecov](https://codecov.io/gh/scrum-gang/jobapplications/branch/master/graph/badge.svg)](https://codecov.io/gh/scrum-gang/jobapplications)
 
 Once you have completed the setup, you can run the tests from the root of the repository via [pytest](https://docs.pytest.org/en/latest/):
+
 ```
 pytest tests/
 ```
 
 If you would like to view coverage reports as well, you can run the following command to leverage [pytest-cov](https://pypi.org/project/pytest-cov/):
+
 ```
 pytest --cov --cov-config=.coveragerc --cov-report term tests/
 ```
+
 We perform thorough unit testing on the controllers of the application. Each function within the controllers has a test for a successful flow, as well as at least one failure flow. It is difficult to test for every possible error, however we still achieve a code coverage of 73%. Note that code coverage here is defined by line coverage. We also have a suite of tests where we execute controller functions directly on the database, to ensure that the database itself is functional and allows us to have the desired controller functions. These tests have Test Driven Development in mind as they were designed before implementing the controllers themselves.
-In order to run the tests, it is necessary to first setup the microservice as explained in the [setup section](https://github.com/scrum-gang/jobapplications#setup) in the repository readme. Once everything is setup, to run the tests, simply run  ``` pytest tests/  ``` from the root of the project.
+In order to run the tests, it is necessary to first setup the microservice as explained in the [setup section](https://github.com/scrum-gang/jobapplications#setup) in the repository readme. Once everything is setup, to run the tests, simply run `pytest tests/` from the root of the project.
 
 #### Folder Structure
 
@@ -319,7 +331,7 @@ In order to run the tests, it is necessary to first setup the microservice as ex
 ├── alembic.ini # alembic initialization file
 ├── applications.py # methods related to applications
 ├── app.py # The starting point of the flask application
-├── docs  # folder with all the docs 
+├── docs  # folder with all the docs
 │   ├── databasedesign.md # Explanation of the database schemas
 │   └── endpoints.md # Explanation of the endpoints
 ├── external.py # Methods related to external applications
@@ -332,9 +344,9 @@ In order to run the tests, it is necessary to first setup the microservice as ex
 ├── setup.py # Script to initialize the database
 ├── tables.py # Script defining database schemas
 ├── tests # Folder with all the tests
-│   ├── conftest.py # Setup test 
+│   ├── conftest.py # Setup test
 │   ├── test_db_creation.py # Test for the database setup
-│   ├── test_external_applications.py # Test external applications 
+│   ├── test_external_applications.py # Test external applications
 │   └── test_internal_applications.py # Test internal applications
 └── utils.py # Script with authentication methods
 
@@ -345,45 +357,49 @@ In order to run the tests, it is necessary to first setup the microservice as ex
 Below is a description of the tables for the Job Applications database.
 
 ##### Applications
+
 Parent table with generic information about all types of applications. The identifier from this table is used in every API endpoint that operates on specific applications (i.e.: deleting applications or updating information about them).
 
-* `id` : integer, primary key, unique, mandatory
-* `date` : date, mandatory
-* `user_id`: string, mandatory, comes from auth microservice
-* `is_inhouse_posting` : Boolean, true if it's an inhouse posting false if not
-* `status` : String, tracks the status of a given application. Can be modified by user for external postings but not
-* `resume`: String, handy tool for applying to jobs
-* `comment`: String, Optional comment a user might add to his application.
-* `resume`: String
+- `id` : integer, primary key, unique, mandatory
+- `date` : date, mandatory
+- `user_id`: string, mandatory, comes from auth microservice
+- `is_inhouse_posting` : Boolean, true if it's an inhouse posting false if not
+- `status` : String, tracks the status of a given application. Can be modified by user for external postings but not
+- `resume`: String, handy tool for applying to jobs
+- `comment`: String, Optional comment a user might add to his application.
+- `resume`: String
 
 ##### Inhouse
+
 For inhouse postings, we only need to store the job identifier which maps to information tracked by the inhouse postings microservice.
- 
-* `id` : Integer, primary key
-* `application_id` : Integer, foreign key from `Applications`
-* `job_id` : String, mandatory, comes from inhouse postings microservice
+
+- `id` : Integer, primary key
+- `application_id` : Integer, foreign key from `Applications`
+- `job_id` : String, mandatory, comes from inhouse postings microservice
 
 ##### External
+
 For external postings, we need to track more information on the application as the posting does not come from one of our microservices.
 
-* `id`: Integer, primary key
-* `application_id` : Integer, foreign key from `Applications`
-* `url`: String, mandatory
-* `position`: String
-* `company`: String
-* `date_posted`: String, but it's just a stringified datetime object
-* `deadline`: String, but it's just a stringified datetime object
+- `id`: Integer, primary key
+- `application_id` : Integer, foreign key from `Applications`
+- `url`: String, mandatory
+- `position`: String
+- `company`: String
+- `date_posted`: String, but it's just a stringified datetime object
+- `deadline`: String, but it's just a stringified datetime object
 
 ##### InterviewQuestion
+
 Users may want to also track what interview questions they received for a given job application. This table enables mapping many interview questions to a given job application, regardless of its type.
 
-* `id`: Integer, primary key
-* `application_id`: Integer, foreign key from `Applications`
-* `title`: String, title of the interview question
-* `question`: String, specific interview question
-
+- `id`: Integer, primary key
+- `application_id`: Integer, foreign key from `Applications`
+- `title`: String, title of the interview question
+- `question`: String, specific interview question
 
 ### Technologies
+
 - [Python](https://www.python.org/downloads/release/python-360/): a programming language that lets you work quickly and integrate systems more effectively.
 - [Flask](http://flask.pocoo.org/): a micro web framework written in Python.
 - [SQLAlchemy](http://flask.pocoo.org/docs/1.0/patterns/sqlalchemy/): a Python SQL toolkit and Object Relational Mapper.
@@ -392,8 +408,8 @@ Users may want to also track what interview questions they received for a given 
 - [Heroku](https://www.heroku.com/): a cloud platform as a service (PaaS) supporting several programming languages.
 - [TravisCI](https://travis-ci.org/): a hosted, distributed continuous integration service used to build and test software projects hosted at [GitHub](https://github.com/).
 
-
 ### Design Decisions
+
 We chose to build the microservice using Python given its simplicity: when we follow the PEP8 styling practices, well-written Python can be read like prose. This microservice was built using the Flask framework once again for simplicity. We’ve opted for a SQL database to enable scalability, as we expect to have too many applications for an in-memory database. We opted to use [PostgreSQL](https://www.postgresql.org/) because the team was already familiar with it. We interact with this database through an Object Relational Mapper (ORM) called [SQLAlchemy](http://flask.pocoo.org/docs/1.0/patterns/sqlalchemy/) provided by Flask, once again for simplicity: it is much easier for other teammates to read code with ORM calls than it is to parse SQL queries within Python code. The choice to include [Alembic](https://pypi.org/project/alembic/) was with a long-term vision: as we want to make modifications to our database, having migration scripts will be quicker and more efficient.
 
 Although we’ve considered alternate [Python](https://www.python.org/downloads/release/python-360/) frameworks, all the ones we picked are simply the most reliable due to having reliable or large amounts of contributors, and most commonly used.
@@ -412,8 +428,8 @@ Originally, there were 2 developers assigned to this team, but one of them dropp
 
 The biggest limitations of this microservice stem from our interactions with its database. Namely, the problems are:
 
-* Nothing to handle concurrent `INSERT`, `UPDATE` or `DELETE` statements,
-* No indexing on frequently queried attributes in the tables.
+- Nothing to handle concurrent `INSERT`, `UPDATE` or `DELETE` statements,
+- No indexing on frequently queried attributes in the tables.
 
 Consequently, the system could fail, have inconsistencies in the data it stores or become increasingly slow as we scale up and the amount of transactions with the databases increases.
 
@@ -423,9 +439,10 @@ Regarding scalability, we also have no setup for stress testing our application,
 
 Although we have included [Alembic](https://pypi.org/project/alembic/), we did not adjust our data migration scripts very diligently as we developed the microservice, which means that currently it is not fully prepared to handle data migrations.
 
-
 ### Miscellaneous
+
 #### Future Work
+
 Addressing the limitations related to scaling, namely including indexes to frequently queried attributes and testing for potential concurrency issues to ensure our application is safe from many concurrent calls. Adding mutual exclusion around our database operations might be required if concurrency testing reveals potential issues.
 
 For speeding up our microservice, we can also create a second database for “archived” applications, where we’d move very old applications (or those of inactive members) through an administrative endpoint. This would ensure only very important information is kept in the database for active users, to maximize its speed.
@@ -451,6 +468,7 @@ rails server
 ```
 
 A typical use case:
+
 1. Create a new resume using POST on `/resumes`.
 2. List all users resumes using GET on `/resumes/:user_id`
 3. Edit a specific resume meta data using PATCH on `/resumes/:id`
@@ -464,6 +482,7 @@ The deployment is on this url:
 - Production: <https://resume-revision.herokuapp.com//>
 
 The tech framework is using rails for 3 different environments:
+
 - `test` which is used for running test cases
 - `dev` which is used for developing the app locally
 - `production` which is deployed on heroku and uses azure active storage to store resumes.
@@ -474,13 +493,14 @@ In order to run the tests, the code needs to be pushed onto github to trigger th
 Also you can run tests locally by running `rails test`
 
 #### Folder Structure
+
 The folder structure of the resume-revision microservice is as follows:
 
 ```bash
-├── app  # It organizes application components. It's got subdirectories  
+├── app  # It organizes application components. It's got subdirectories
 ├── controllers # has the resumes_controller.rb
 │   │   ├── application_controller.rb
-│   │   └── resumes_controller.rb # has all the functionalities for resumes   
+│   │   └── resumes_controller.rb # has all the functionalities for resumes
 ├── models
 │   │   ├── application_record.rb # base class for a component
 │   │   └── resume.rb #the resume entity
@@ -501,7 +521,7 @@ The folder structure of the resume-revision microservice is as follows:
 
 ```
 
-- app/controllers: The controllers subdirectory is where Rails looks to find the controller classes including resume controller. 
+- app/controllers: The controllers subdirectory is where Rails looks to find the controller classes including resume controller.
 - app/helpers: The helpers subdirectory holds any helper classes used to assist the model, view, and controller classes.
 - app/models: The models subdirectory holds the classes that model and wrap the data stored in our application's database. In most frameworks, this part of the application can grow pretty messy, tedious, verbose, and error-prone. Rails makes it dead simple!
 - components: This directory holds components, tiny self-contained applications that bundle model, view, and controller.
@@ -509,27 +529,27 @@ The folder structure of the resume-revision microservice is as follows:
 - db: this has the database configuration for the rails application
 - License: which includes the license of the repository
 
-The other folders are generated by by Rails and they are not very relevant. 
+The other folders are generated by by Rails and they are not very relevant.
 
 #### Database Information
 
 Details all the fields in the Resume model.
 
-| Field           | Type    | Required | Allowed Values                  | Specified By |
-| --------------- | ------- | -------- | ------------------------------- | ------------ |
-| `:data`         | Blob    | true     | Base64 of the resume pdf        | user         |
-| `:title`        | String  | true     | the title given to the resume   | user         |
-| `:revision`     | String  | true     | numeric versioning              | user         |
-| `:user_id`      | String  | true     | foreign key on the auth service | user         |
-| `:user_name`    | String  | false    | n/a                             | user         |
-| `:resume_data`  | String  | false    | The parsed raw :data            | user         |
-| `id`            | String  | n/a      | id auto generated by Rails      | system       |
+| Field          | Type   | Required | Allowed Values                  | Specified By |
+| -------------- | ------ | -------- | ------------------------------- | ------------ |
+| `:data`        | Blob   | true     | Base64 of the resume pdf        | user         |
+| `:title`       | String | true     | the title given to the resume   | user         |
+| `:revision`    | String | true     | numeric versioning              | user         |
+| `:user_id`     | String | true     | foreign key on the auth service | user         |
+| `:user_name`   | String | false    | n/a                             | user         |
+| `:resume_data` | String | false    | The parsed raw :data            | user         |
+| `id`           | String | n/a      | id auto generated by Rails      | system       |
 
 ### Technologies
 
 **Heroku** [here](https://dashboard.heroku.com)
 **Postgresql** [here](https://www.postgresql.org/docs/9.5/indexes-types.html)
-**Active Storage on Azure  with rails** [here](https://edgeguides.rubyonrails.org/active_storage_overview.html)
+**Active Storage on Azure with rails** [here](https://edgeguides.rubyonrails.org/active_storage_overview.html)
 **Httparty** as an http client [here](https://github.com/jnunemaker/httparty)
 **Webmock** [here](https://github.com/bblimke/webmock)
 **Rails** [here](https://rubyonrails.org/)
@@ -538,7 +558,7 @@ Details all the fields in the Resume model.
 
 The dev environment uses Ruby on Rails for the app and the backend side and to manage the connections with the database.
 
-Ruby on Rails is a fast framework used to develop apps that are convenient and reliable. On the other hand we needed some technologies to upload resumes and save them permanently which Heroku did not provide under its free plan. This is why we used Azure Storage to save resume files as a blob and attach them to the resume object and their fields. We choose Azure storage due to their convenience regarding the student plan which gives us 300$ free trial to access resources. Also, the team was familiar with it and we did not want to waste time with searching for alternatives.
+Ruby on Rails is a fast framework used to develop apps that are convenient and reliable. On the other hand we needed some technologies to upload resumes and save them permanently which Heroku did not provide under its free plan. This is why we used Azure Storage to save resume files as a blob and attach them to the resume object and their fields. We choose Azure storage due to their convenience regarding the student plan which gives us 300\$ free trial to access resources. Also, the team was familiar with it and we did not want to waste time with searching for alternatives.
 
 We have also used webmock to do integration testing of the backend to ensure that the authentication endpoint is being called when passing a resume. We choose webmock because it is one of the well known libraries for simulating calls to other services. It was also a great fit since the team members already had experience with it.
 
@@ -550,13 +570,13 @@ Each endpoint is linked to a function in the controller under /controllers inhou
 
 The resume-revision service is hosted on Heroku. Using Travis CI, each time code is pushed into our repository on Github, a build will be spawned in Heroku.The build first runs our unit tests and then executes the rails server command. The database chosen for this microservice is PostgreSQL which is the default database. The rationale behind is that Rails comes with its own database and sets up its own table. Rails apps are known to manage their own database schema for fast prototyping.
 
-Heroku was used as the deployment platform for several reasons. First of all, it integrates easily with other platform used such as Github, Travis CI, and mLab for the database. Moreover, it is free of charge for a project of this scale, and most importantly reliable when looking at down times and deployment speeds. 
+Heroku was used as the deployment platform for several reasons. First of all, it integrates easily with other platform used such as Github, Travis CI, and mLab for the database. Moreover, it is free of charge for a project of this scale, and most importantly reliable when looking at down times and deployment speeds.
 
 ### Task Distribution
 
-The project was separated into two sprints. 
+The project was separated into two sprints.
 
-In the first sprint, Elias Al Homsi defined worked on making a working prototype that connects to the Azure blob storage to save resumes. Abbas Yadollahi worked on creating the pipeline and the deployment CI/CD with the intention of integration with Heroku. 
+In the first sprint, Elias Al Homsi defined worked on making a working prototype that connects to the Azure blob storage to save resumes. Abbas Yadollahi worked on creating the pipeline and the deployment CI/CD with the intention of integration with Heroku.
 
 In the second sprint, Abbas Yadollahi worked on fixing bugs, making sure the code base is readable and appropriate for the other teams in order to link our microservice with ours. Elias Al Homsi worked on integrating the authentication service with the current resume endpoint and make sure it that all requests should authenticate first before accessing resources.
 
@@ -582,7 +602,7 @@ The main reason of having a title and a revision is that sometimes users would l
 
 ### Description
 
-The Inhouse Posting module is a back-end microservice providing API endpoints to create job postings. It hosts the functionality and logic allowing recruiters to post job applications on the web app. When recruiters want to display job postings on our website through the user interface, the web app will connect to the inhouse-posting micro service and take care of storing, formatting and retrieving data. This is all achieved using a Nodejs architecture following a restful design. The specifics on the technology & architecture are highlighted in the *Technologies* & *Design Decisions* section.
+The Inhouse Posting module is a back-end microservice providing API endpoints to create job postings. It hosts the functionality and logic allowing recruiters to post job applications on the web app. When recruiters want to display job postings on our website through the user interface, the web app will connect to the inhouse-posting micro service and take care of storing, formatting and retrieving data. This is all achieved using a Nodejs architecture following a restful design. The specifics on the technology & architecture are highlighted in the _Technologies_ & _Design Decisions_ section.
 
 ### Getting Started
 
@@ -591,9 +611,9 @@ The Inhouse Posting module is a back-end microservice providing API endpoints to
 In order to setup the microservice, follow the steps below:
 
 ```
-git clone https://github.com/scrum-gang/inhouse-postings.git  
-cd inhouse-postings  
-npm install  
+git clone https://github.com/scrum-gang/inhouse-postings.git
+cd inhouse-postings
+npm install
 npm start
 ```
 
@@ -601,7 +621,7 @@ Builds are automated using Travis and deployed on Heroku.
 
 There is one Heroku deployment:
 
--  <https://inhouse-jobpostings.herokuapp.com/>
+- <https://inhouse-jobpostings.herokuapp.com/>
 
 #### Running Tests
 
@@ -621,92 +641,92 @@ In the root, there are 4 folders; authentication, controllers, models, routes, t
 
 `route` folder contains a javascript file of all the HTTP routes the microservice can offer.
 
-`test` folder contains a javascript file with the test environment and the tests on each endpoint. 
+`test` folder contains a javascript file with the test environment and the tests on each endpoint.
 
 #### Database Information
 
 Each job posting has the following attributes:
 
 - `id` : A unique ID generated for each user.  
-    Type: `String`,
+   Type: `String`,
 - `recruiter` : A Global Unique Identifier for the recruiter.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 - `title` : The title of the position of the job.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 - `description` : The description of the job position.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 - `location` : The location of the job.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 - `salary` : The yearly salary for the position.  
-    Type: `Number`, Required: `true`
+   Type: `Number`, Required: `true`
 - `requirements` : All the requirements needed for the job.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 - `company` : The company name.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 - `start date` : The date the applicant will start working.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 - `end date` : The date the applicant will finish working if it is a contract position.  
-    Type: `String`
+   Type: `String`
 - `posting date` : Generated date of the posting.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 - `deadline` : The deadline for the applicant to apply.  
-    Type: `String`, Required: `true`
+   Type: `String`, Required: `true`
 
 ### Technologies
 
 - **npm** is used as our package manager since the code is written in JavaScript. It is the default package manager for the JavaScript runtime environment Node.js, which is at the core of our architecture.  
-[npm](https://www.npmjs.com/)  
+  [npm](https://www.npmjs.com/)
 - **Node.js** is used to execute our javascript code. It has the advantage of having many tools and framework that significantly facilitate the development of a RESTful backend.  
-[nodejs](https://nodejs.org/en/download/)  
+  [nodejs](https://nodejs.org/en/download/)
 - **MongoDB** is used as our database.  
-[mongodb](https://www.mongodb.com/download-center)  
+  [mongodb](https://www.mongodb.com/download-center)
 - **TravisCI** is used to integrate the builds into github.  
-[travisci](https://travis-ci.com/download)  
-- **GitHub** is used as our repository and version control system.   https://github.com/scrum-gang/inhouse-postings
-[github](https://github.com/)  
+  [travisci](https://travis-ci.com/download)
+- **GitHub** is used as our repository and version control system. https://github.com/scrum-gang/inhouse-postings
+  [github](https://github.com/)
 - **Heroku** is used to host the inhouse postings microservice and to integrate the automated tests into our build system.  
-[heroku](https://www.heroku.com/)    
+  [heroku](https://www.heroku.com/)
 
-List of npm (node.js) packages used:  
+List of npm (node.js) packages used:
 
-- **axios** is used to handle authentication. It provides an easy-to-use promise based HTTP client for node.js.  
-- **Express** is used to build our APIs. It provides a fast and minimalist way to create endpoints for our node.js application.  
-- **Mongoose** is used for our object and schema modelling since we are using MongoDB. It provides simple ways to describe our schema in node.js  
-- **Chai** and **Mocha** are used to write our unit tests. It provides a BDD/TDD assertion library as well as a framework to run node.js unit tests that test our api endpoints.  
+- **axios** is used to handle authentication. It provides an easy-to-use promise based HTTP client for node.js.
+- **Express** is used to build our APIs. It provides a fast and minimalist way to create endpoints for our node.js application.
+- **Mongoose** is used for our object and schema modelling since we are using MongoDB. It provides simple ways to describe our schema in node.js
+- **Chai** and **Mocha** are used to write our unit tests. It provides a BDD/TDD assertion library as well as a framework to run node.js unit tests that test our api endpoints.
 
 ### Design Decisions
 
-The design of the inhouse-posting backend service follows a model-route-controller architecture. The reason for choosing this type of architecture is because we needed routes to be seperate from their purpose handled in the controller. This way we can accomodate the frontend with different routes and worry about implementing them in another file.  
+The design of the inhouse-posting backend service follows a model-route-controller architecture. The reason for choosing this type of architecture is because we needed routes to be seperate from their purpose handled in the controller. This way we can accomodate the frontend with different routes and worry about implementing them in another file.
 
-The endpoints are described in the /routes directory in the inhouse-job-posting.route.js file.     
+The endpoints are described in the /routes directory in the inhouse-job-posting.route.js file.
 
 Each endpoint is linked to a function in the controller under /controllers inhouse-job-postings.controller.js. The controller functions handle the business logic associated with each endpoint.
 
-The model /models/inhouse-job-postings.model.js describes the database schema. The controller uses the model to make sure that the incoming requests and outgoing responses follow the schema.  
+The model /models/inhouse-job-postings.model.js describes the database schema. The controller uses the model to make sure that the incoming requests and outgoing responses follow the schema.
 
 The model-route-controller architecture is used to separate and keep the three modules independent of one another. The advantage of this design is that changing one of the three modules does not impact the others. For example, changing the name of an endpoint from “/getall” to “/retreiveall” in the routes file is as simple as just changing the route name. This does not impact the rest of the code, since they are independent.
 
 The unit tests are written under the /test directory in the test.js file. The tests use the expect() function for assertion.
 
-The inhouse-postings service is hosted on Heroku. Using Travis CI, each time code is pushed into our repository on Github, a build will be spawned in Heroku. The build first runs our unit tests and then executes the npm run command, which uses node.js to run our app on Heroku’s hosted server.  
+The inhouse-postings service is hosted on Heroku. Using Travis CI, each time code is pushed into our repository on Github, a build will be spawned in Heroku. The build first runs our unit tests and then executes the npm run command, which uses node.js to run our app on Heroku’s hosted server.
 
-The microservice was coded using javascript with Nodejs for the sole reason that the whole team had experience with the language and the framework. This meant that the team could spend more time implementing high priority features and not worry about understanding the language and the node framework.  
+The microservice was coded using javascript with Nodejs for the sole reason that the whole team had experience with the language and the framework. This meant that the team could spend more time implementing high priority features and not worry about understanding the language and the node framework.
 
-The database chosen for this microservice is MongoDB. The rationale behind is that there is no need for a relational database as only job postings are stored. Hence, a document-oriented database such as MongoDB is a perfect fit. MongoDB also is easily deployed using the mLab hosting service.  
+The database chosen for this microservice is MongoDB. The rationale behind is that there is no need for a relational database as only job postings are stored. Hence, a document-oriented database such as MongoDB is a perfect fit. MongoDB also is easily deployed using the mLab hosting service.
 
-Heroku was used as the deployment platform for several reasons. First of all, it integrates easily with other platform used such as Github, Travis CI, and mLab for the database. Moreover, it is free of charge for a project of this scale, and most importantly reliable when looking at down times and deployment speeds.  
+Heroku was used as the deployment platform for several reasons. First of all, it integrates easily with other platform used such as Github, Travis CI, and mLab for the database. Moreover, it is free of charge for a project of this scale, and most importantly reliable when looking at down times and deployment speeds.
 
 ### Task Distribution
 
-The project was separated into two sprints.  
+The project was separated into two sprints.
 
-In the first sprint, Filip Bernevec defined the job posting database schema, as well as implementing it with MongoDB. He setup the continuous integration with Travis CI as well. On the other hand, Rami Djema spent his working hours on creating the backend architecture using Nodejs. During this sprint, he created REST API endpoints for creating a job posting, updating it, viewing and deleting.  
+In the first sprint, Filip Bernevec defined the job posting database schema, as well as implementing it with MongoDB. He setup the continuous integration with Travis CI as well. On the other hand, Rami Djema spent his working hours on creating the backend architecture using Nodejs. During this sprint, he created REST API endpoints for creating a job posting, updating it, viewing and deleting.
 
-In the second sprint, Filip Bernevec had to update the schema in order to have the similar entities as the job applications microservice. He also had to configure and deploy the app on Heroku, and implement authentication in the backend. As for Rami, he setup the testing environment using Mocha to test all the endpoints. He also handled crashing issues with the app, and added custom endpoints as requested by the frontend team.   
+In the second sprint, Filip Bernevec had to update the schema in order to have the similar entities as the job applications microservice. He also had to configure and deploy the app on Heroku, and implement authentication in the backend. As for Rami, he setup the testing environment using Mocha to test all the endpoints. He also handled crashing issues with the app, and added custom endpoints as requested by the frontend team.
 
 ### Limitations
 
-The inhouse-postings micro service requires all requests to follow the exact schema provided to the recruiter. All field must be populated. Therefore one limitation is that if some non-conforming information is provided by the recruiter, i.e. a salary range rather than an absolute value for the salary, this information will have to be provided somewhere in the description and the salary must be left null. These small limitations are things that could be fixed as we would get feedback from users of the application in order to make a schema that best fits their needs.  
+The inhouse-postings micro service requires all requests to follow the exact schema provided to the recruiter. All field must be populated. Therefore one limitation is that if some non-conforming information is provided by the recruiter, i.e. a salary range rather than an absolute value for the salary, this information will have to be provided somewhere in the description and the salary must be left null. These small limitations are things that could be fixed as we would get feedback from users of the application in order to make a schema that best fits their needs.
 
 Another limitation is that the Heroku deployment is using a free tier plan. This means that the amount of computational resources is limited (512 MB RAM). The same holds for the MongoDB database, which only provides the application with a limited amount of storage due to the free tier plan. If this application were to scale up and the amount of concurrent users were to increase, this limited amount of resources would be insufficient.
 
@@ -714,19 +734,19 @@ Another limitation is that the Heroku deployment is using a free tier plan. This
 
 #### Endpoints
 
-The detailed endpoints can be found on in the README of the inhouse-posting repository. In summary, this microservice has endpoints for getting a posting by ID, getting a posting by recruiter, and getting all postings. It allows the recruiter to create a posting, to update by ID, and to delete by ID.   
+The detailed endpoints can be found on in the README of the inhouse-posting repository. In summary, this microservice has endpoints for getting a posting by ID, getting a posting by recruiter, and getting all postings. It allows the recruiter to create a posting, to update by ID, and to delete by ID.
 
-There is a restriction on three endpoints, which require the user to be a recruiter. This authentication feature allows only the recruiter to create, update and delete a posting. In order to accomplish this authentication, those endpoints expect the HTTP request to have a JWT token in the header.  
+There is a restriction on three endpoints, which require the user to be a recruiter. This authentication feature allows only the recruiter to create, update and delete a posting. In order to accomplish this authentication, those endpoints expect the HTTP request to have a JWT token in the header.
 
 ## Web Application
 
 ### Description
 
-The front-end web application communicates with all microservices and serves as the end user’s main gateway to the JobHub application.  The web application was built to run on any modern web browser (e.g. [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Chrome](https://www.google.com/chrome/), [Safari](https://www.apple.com/ca/safari/), etc.) using the open-source [ReactJS](https://reactjs.org/) view library as the backbone for our project.
+The front-end web application communicates with all microservices and serves as the end user’s main gateway to the JobHub application. The web application was built to run on any modern web browser (e.g. [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Chrome](https://www.google.com/chrome/), [Safari](https://www.apple.com/ca/safari/), etc.) using the open-source [ReactJS](https://reactjs.org/) view library as the backbone for our project.
 
 ### Getting Started
 
-#### Setup 
+#### Setup
 
 Ensure that you have [NodeJS](https://nodejs.org/en/) installed. Clone the scrum-gang/jobhub-web repository, go into the root directory of the project, and run `npm install` to install all dependencies. To run the project, simply run `npm start`. To maintain code quality, we recommend using the VSCode text editor, and having the TSLint and Prettier extensions installed to have proper code formatting.
 
@@ -736,7 +756,7 @@ We ran unit tests with the [Jest](https://jestjs.io/) test runner and the [Enzym
 
 We also had a suite of acceptance tests written in Java and Selenium, which performed the tasks on the live version of the website (see the scrum-gang/jobhub-selenium repository).
 
-#### Folder structure 
+#### Folder structure
 
 ```bash
 public # HTML file that’s ultimately rendered
@@ -760,12 +780,13 @@ README.md # repository readme
 netlify.toml # Netlify deploy settings
 package-lock.json # npm lockfile to conserve dependency versions
 package.json # package details (name, license, dependencies, etc.)
-tsconfig.json # TypeScript transpiling configuration 
+tsconfig.json # TypeScript transpiling configuration
 tslint.json # linter configuration
 
 ```
 
 ### Technologies
+
 - [TypeScript](https://www.typescriptlang.org/): Superset of JavaScript with added Static Types
 - [ReactJS](https://reactjs.org/): view library for JavaScript
 - [Create React App](https://facebook.github.io/create-react-app/): starter template for ReactJS
@@ -814,49 +835,50 @@ The web app might run slowly because all of its APIs that it queries are run on 
 The Chrome extension is meant to be an ad-hoc access to the JobHub services. When the users are on a job application website, they don't need to stop browsing the post in order to open the JobHub website on a separate tab. Instead, they can start tracking the given application via the popup submit directly on the job posting website.
 This component is meant to be as unobtrusive as possible in the user's browsing experience, while nonetheless providing a quick access to the main JobHub use cases.
 
-Any user, both registered or unregistered with the JobHub services, can begin using the extension within a Chrome browser in any website. It suffices to click on the extension's icon on the top left corner of the browser and the login form will popup. The user can register to JobHub by clicking the *register* button, which will redirect him to the Frontend service to complete the registering form. If he already has an account, he can login by entering his credentials. This will log the user and store the JWT token required to perform operations with the JobHub services. Subsequent logins within the same browser session will automatically login the user. Once the user is authenticated, the Job Posting form will be displayed. If the user opened the extension from within a website containing a job application, the extension will automatically detect the name of the company, the position, the URL, and the date the posting was posted. The user fills the remaining details, such as CV used, and whether or not they already applied or will apply. Note that the CVs must be added from the Frontend service. After the user is done submitting job applications to the JobHu service, he can click anywhere in the browser outside of the extension popup to close the widget.
+Any user, both registered or unregistered with the JobHub services, can begin using the extension within a Chrome browser in any website. It suffices to click on the extension's icon on the top left corner of the browser and the login form will popup. The user can register to JobHub by clicking the _register_ button, which will redirect him to the Frontend service to complete the registering form. If he already has an account, he can login by entering his credentials. This will log the user and store the JWT token required to perform operations with the JobHub services. Subsequent logins within the same browser session will automatically login the user. Once the user is authenticated, the Job Posting form will be displayed. If the user opened the extension from within a website containing a job application, the extension will automatically detect the name of the company, the position, the URL, and the date the posting was posted. The user fills the remaining details, such as CV used, and whether or not they already applied or will apply. Note that the CVs must be added from the Frontend service. After the user is done submitting job applications to the JobHu service, he can click anywhere in the browser outside of the extension popup to close the widget.
 
 ### Getting started
 
-| Extension Logo | Login Popup                                     | Job Posting Form                                     |
-|----| ----------------------------------------------- | ---------------------------------------------------- |
+| Extension Logo                                     | Login Popup                                     | Job Posting Form                                     |
+| -------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------- |
 | ![Extension Logo](https://i.imgur.com/v5s8wRW.png) | ![Login Popup](https://i.imgur.com/GXQQewr.png) | ![Job Posting Form](https://i.imgur.com/rQyb5oD.png) |
 
 #### Setup
 
-All the technologies named here will be further explained in the *Technologies* section.
+All the technologies named here will be further explained in the _Technologies_ section.
 
 1. Clone the GitHub repository and install the dependencies found inside `package.json`
-    ```bash
-    git clone https://github.com/scrum-gang/jobhub-chrome.git
-    cd jobhub-chrome
-    npm install
-    ```
+
+   ```bash
+   git clone https://github.com/scrum-gang/jobhub-chrome.git
+   cd jobhub-chrome
+   npm install
+   ```
 
 2. Start the Bucklescript watcher to compile ReasonML `./src/*.re` into Javascript `./lib/js/*.js`
-    ```bash
-    npm start
-    ```
+
+   ```bash
+   npm start
+   ```
 
 3. Start the Webpack watcher to bundle `./lib/js/*.js` into `./build/index.js`
-    ```bash
-    npm run webpack-dev
-    ```
+
+   ```bash
+   npm run webpack-dev
+   ```
 
 4. Start the Jest watcher to continuously test your changes
-    ```bash
-    npm test
-    ```
+   ```bash
+   npm test
+   ```
 5. If you haven't done so previously, [unpack the extension locally in your browser](https://developer.chrome.com/extensions/getstarted#manifest).  
    Note that you only really need to run this step once.
-
 
 #### Testing
 
 As shown in point #4, the NPM test runner will take care of continuously running the test suite everytime the source code is modified. Testing was integrated into the development cycle since the first sprint. The team chose to write tests for features that did not require mocking at the same time that the components were being implemented. To ensure accountability for testing, the issue and the pull request forms had a field specifying how the test coverage of the component under question was modified. TravisCI would also flag any pull requests which reduced the test coverage of the system as a whole.
 
-
-#### Folder structure 
+#### Folder structure
 
 ```bash
 .
@@ -875,45 +897,49 @@ As shown in point #4, the NPM test runner will take care of continuously running
 └── webpack.config.js   # Webpack config
 ```
 
-
-#### Contributor guidelines 
+#### Contributor guidelines
 
 ##### Code of conduct
+
 We chose to adopt the standard Code Of Conduct specified by https://www.contributor-covenant.org
 Because the Chrome Extension component of JobHub was a fully open source project, we wanted to render contribution to the project inclusive to all. The code of conduct can be summarized as follows:
 
-
->In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
-
+> In the interest of fostering an open and welcoming environment, we as
+> contributors and maintainers pledge to making participation in our project and
+> our community a harassment-free experience for everyone, regardless of age, body
+> size, disability, ethnicity, sex characteristics, gender identity and expression,
+> level of experience, education, socio-economic status, nationality, personal
+> appearance, race, religion, or sexual identity and orientation.
 
 ##### Issues and bug forms
+
 So that any member of the ECSE428 team could request features or flag issues with the system, we created an Issue template.
 It contains the minimum information required for the Chrome Extension team to debug the issue or to plan the requested feature.
 
 **Form for bugs**
- - Expected Behavior
- - Actual Behavior
- - Steps to Reproduce the Problem  
+
+- Expected Behavior
+- Actual Behavior
+- Steps to Reproduce the Problem
 
 **Form for enhancement**
- - Reason for the enhancement
- - Explanation of how the enhancement may implemented
- - Impact on existent system
+
+- Reason for the enhancement
+- Explanation of how the enhancement may implemented
+- Impact on existent system
 
 ##### Pull request forms
-Because teams were shuffled after the first sprint, Pull Requests could potentially be opened by any member of the team. To homogenize the requests and facilitate the code review process a template was provided to be filled when opening a Pull Request. 
+
+Because teams were shuffled after the first sprint, Pull Requests could potentially be opened by any member of the team. To homogenize the requests and facilitate the code review process a template was provided to be filled when opening a Pull Request.
 The minimum information the Pull Request must have is:
+
 - an issue attached to it so that the team can discuss before a solution is implemented
 - a set of tests that validate the bug is fixed or the enhancement is functional
 
 We were keen on developing a safe system, hence we were open and explicit in the GitHub page of the project to request any security bug that would be found to be reported directly to the team.
 
 **Form for Pull Requests**
+
 - Description of changes made
 - Checklist
   - Code compiles correctly
@@ -922,8 +948,8 @@ We were keen on developing a safe system, hence we were open and explicit in the
   - Created tests which fail without the change (if possible)
   - Extended the README / documentation (if necessary)
 
-
 ### Technologies
+
 - [ReasonML](https://reasonml.github.io/): syntax extension for the OCaml language that resembles JavaScript. Used as main development language for the Chrome Extension.
 - [Bucklescript](https://bucklescript.github.io/): it is a backend for the OCaml compiler which emits JavaScript. Used to generate JavaScript files from the ReasonML source code.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): it is a programming language that is characterized as dynamic, weakly typed, prototype-based and multi-paradigm. It is the only supported language by the Chrome Extension API.
@@ -934,10 +960,10 @@ We were keen on developing a safe system, hence we were open and explicit in the
 - [Editorconfig](https://editorconfig.org/): style linter. Used to homogenize the style across all the developers of the Chrome Extension.
 - [TravisCI](https://travis-ci.org/): Continuous Integration web service. Used to run the test suite automatically on every branch for every commit.
 
-
 ### Design decisions
 
 From a high level perspective the Chrome Extension has four main React components:
+
 - The App component is the parent component which holds the global state. It keeps track of the JWT and the UserID. It displays the Login or the JobApp form depending on whether the JWT is still valid or has expired.
 - The Login component has an HTML form to enter JobHub credentials or a button to register for the service.
 - The JobApp component renders the job application form for the user to submit.
@@ -969,11 +995,12 @@ While using a language other than JavaScript for the Chrome Extension significan
 
 We chose to use React as our user interface library over vanilla HTML/JS/CSS, Angular, or VueJS because the developers already had experience with the library. Hence, the sprint speed of the team for user interface tasks was significantly increased. An additional factor was that ReasonML offered out of the box support for React (both libraries are developed by Facebook). React allowed us to modularize the interfaces of the extension into the above mentioned components. This allowed for a decoupled structure with its own internal logic and state.
 
-We chose to provide an extension only for Chrome and not for Internet Explorer or Firefox due to the constraint in time and resources. We decided to focus on the most widely used browser and the one with the most updated API. An added advantage of using the Chrome browser for the extension was that it has synchronized storage across all browsers the user is currently logged in. This means that logging in the JobHub extension in a laptop will also allow the user to remain logged in (given that the JWT does not expire) in his desktop. A drawback of all current browsers is that none support extensions in mobile platforms. Hence the JobHub Extension remains a non-mobile component for the foreseeable future. We chose not to publish the Chrome Extension in the Chrome Marketplace as it costs $40 USD to create a developer account with Google to be able to publish an extension. Information on how to setup the Chrome Extension from source has been given in the *setup* section.
+We chose to provide an extension only for Chrome and not for Internet Explorer or Firefox due to the constraint in time and resources. We decided to focus on the most widely used browser and the one with the most updated API. An added advantage of using the Chrome browser for the extension was that it has synchronized storage across all browsers the user is currently logged in. This means that logging in the JobHub extension in a laptop will also allow the user to remain logged in (given that the JWT does not expire) in his desktop. A drawback of all current browsers is that none support extensions in mobile platforms. Hence the JobHub Extension remains a non-mobile component for the foreseeable future. We chose not to publish the Chrome Extension in the Chrome Marketplace as it costs \$40 USD to create a developer account with Google to be able to publish an extension. Information on how to setup the Chrome Extension from source has been given in the _setup_ section.
 
 We chose editorconfig for the linting of the code base to homogenize developers' code. While the Bucklescript already performs major linting of the code before compilation, minor details such as maximum line length and required documentation are checked by editorconfig.
 
 ### Task distribution
+
 The first sprint team was comprised of Alexander Bratyshkin and Camilo Garcia La Rotta.
 
 - **Alexander Bratyshkin**: he was mainly in charge of setting up the project structure and developing the scrappers. He wired up the Bucklescript compiler with the Webpack bundler, effectively completing the pipeline from ReasonML code to valid Chrome API Javascript. He created the components required to scrape company names and job positions.
@@ -994,5 +1021,5 @@ The second sprint team was solely comprised of Camilo Garcia La Rotta.
 
 ### Miscellaneous
 
-The team chose to develop the Chrome Extension on a issue based approach. This meant that an issue was to be created for each feature to be developed, so that every pull request had an issue assigned to it and the issue would be closed automatically by GitHub once merged into master. 
-The project also followed semantic commit messages (https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) in order to reduce the cognitive load required to understand the changes done to the codebase since a given commit. The naming convention for every branch would hence be `feat/<short_issue_description>-<issue-number>` for a given feature being implemented. This allowed the team to quickly parse the multiple branches being worked on concurrently.
+The team chose to develop the Chrome Extension on a issue based approach. This meant that an issue was to be created for each feature to be developed, so that every pull request had an issue assigned to it and the issue would be closed automatically by GitHub once merged into master.
+The project also followed [semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) in order to reduce the cognitive load required to understand the changes done to the codebase since a given commit. The naming convention for every branch would hence be `feat/<short_issue_description>-<issue-number>` for a given feature being implemented. This allowed the team to quickly parse the multiple branches being worked on concurrently.
