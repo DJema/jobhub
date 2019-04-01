@@ -63,7 +63,7 @@ From sprint 1 to sprint 2 there was no change in terms of planning. However, we 
 
 Instead of estimating a story based on points as is done in industry, we estimated the effort involved in fully implementing a story based on the effort involved for each task of the story. This allowed us to have a slightly simpler model for evaluating the importance of a story. 
 
-This process did not evolve from the first to second sprint. Firstly, we wanted to keep the same method of story estimation to maintain continuity between the two sprints. Secondly, we did not feel the need to change how we estimated a story’s effort because we did not run into any problems in the first sprint. 
+This process did not evolve from the first to second sprint. Firstly, we wanted to keep the same method of story estimation to maintain continuity between the two sprints. Secondly, we did not feel the need to change how we estimated a story’s effort because we did not run into any problems in the first sprint and we were able to mark all our tasks as completed.
 
 
 ### Daily Standup Meetings
